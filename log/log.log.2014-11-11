@@ -1,0 +1,427 @@
+2014-11-11 08:44:10 [ main ] Root WebApplicationContext: initialization started
+2014-11-11 08:44:10 [ main ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 08:44:10 CST 2014]; root of context hierarchy
+2014-11-11 08:44:10 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 08:44:12 [ main ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 08:44:13 [ main ] Root WebApplicationContext: initialization completed in 2591 ms
+2014-11-11 08:44:13 [ main ] FrameworkServlet 'simple': initialization started
+2014-11-11 08:44:13 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 08:44:13 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 08:44:13 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 08:44:13 [ main ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 08:44:13 [ main ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 08:44:14 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 08:44:14 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 08:44:14 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 08:44:14 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 08:44:14 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 08:44:14 [ main ] FrameworkServlet 'simple': initialization completed in 1327 ms
+2014-11-11 08:46:37 [ main ] Root WebApplicationContext: initialization started
+2014-11-11 08:46:37 [ main ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 08:46:37 CST 2014]; root of context hierarchy
+2014-11-11 08:46:37 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 08:46:38 [ main ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 08:46:38 [ main ] Root WebApplicationContext: initialization completed in 683 ms
+2014-11-11 08:46:38 [ main ] FrameworkServlet 'simple': initialization started
+2014-11-11 08:46:38 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 08:46:38 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 08:46:38 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 08:46:38 [ main ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 08:46:38 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 08:46:38 [ main ] FrameworkServlet 'simple': initialization completed in 573 ms
+2014-11-11 18:58:56 [ main ] Root WebApplicationContext: initialization started
+2014-11-11 18:58:56 [ main ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 18:58:56 CST 2014]; root of context hierarchy
+2014-11-11 18:58:56 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 18:58:57 [ main ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 18:58:58 [ main ] Root WebApplicationContext: initialization completed in 2312 ms
+2014-11-11 18:58:58 [ main ] FrameworkServlet 'simple': initialization started
+2014-11-11 18:58:58 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 18:58:58 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 18:58:58 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 18:58:58 [ main ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 18:58:59 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 18:58:59 [ main ] FrameworkServlet 'simple': initialization completed in 1300 ms
+2014-11-11 19:15:20 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 18:58:58 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:15:20 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 18:58:56 CST 2014]; root of context hierarchy
+2014-11-11 19:15:20 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 19:15:20 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 19:15:20 CST 2014]; root of context hierarchy
+2014-11-11 19:15:20 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 19:15:21 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:15:21 [ Timer-1 ] Root WebApplicationContext: initialization completed in 482 ms
+2014-11-11 19:15:21 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 19:15:21 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:15:21 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:15:21 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 19:15:21 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 19:15:21 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 19:15:21 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 205 ms
+2014-11-11 19:16:40 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:15:21 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:16:40 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 19:15:20 CST 2014]; root of context hierarchy
+2014-11-11 19:16:40 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 19:16:40 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 19:16:40 CST 2014]; root of context hierarchy
+2014-11-11 19:16:40 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 19:16:41 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:16:41 [ Timer-1 ] Root WebApplicationContext: initialization completed in 413 ms
+2014-11-11 19:16:41 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 19:16:41 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:16:41 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:16:41 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 19:16:41 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 19:16:41 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 19:16:41 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 241 ms
+2014-11-11 19:17:20 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:16:41 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:17:20 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 19:16:40 CST 2014]; root of context hierarchy
+2014-11-11 19:17:20 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 19:17:20 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 19:17:20 CST 2014]; root of context hierarchy
+2014-11-11 19:17:20 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 19:17:21 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:17:21 [ Timer-1 ] Root WebApplicationContext: initialization completed in 525 ms
+2014-11-11 19:17:21 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 19:17:21 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:17:21 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:17:21 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 19:17:21 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 19:17:21 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 19:17:21 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 228 ms
+2014-11-11 19:17:40 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:17:21 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:17:40 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 19:17:20 CST 2014]; root of context hierarchy
+2014-11-11 19:17:40 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 19:17:40 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 19:17:40 CST 2014]; root of context hierarchy
+2014-11-11 19:17:40 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 19:17:41 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:17:41 [ Timer-1 ] Root WebApplicationContext: initialization completed in 541 ms
+2014-11-11 19:17:41 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 19:17:41 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:17:41 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:17:41 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 19:17:41 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 19:17:41 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 19:17:41 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 197 ms
+2014-11-11 19:21:10 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:17:41 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:21:10 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 19:17:40 CST 2014]; root of context hierarchy
+2014-11-11 19:21:10 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 19:21:10 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 19:21:10 CST 2014]; root of context hierarchy
+2014-11-11 19:21:10 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 19:21:10 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:21:11 [ Timer-1 ] Root WebApplicationContext: initialization completed in 574 ms
+2014-11-11 19:21:11 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 19:21:11 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:21:11 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:21:11 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 19:21:11 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 19:21:11 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 19:21:11 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 229 ms
+2014-11-11 19:21:20 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:21:11 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:21:20 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 19:21:10 CST 2014]; root of context hierarchy
+2014-11-11 19:21:20 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 19:21:20 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 19:21:20 CST 2014]; root of context hierarchy
+2014-11-11 19:21:20 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 19:21:21 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:21:21 [ Timer-1 ] Root WebApplicationContext: initialization completed in 398 ms
+2014-11-11 19:21:21 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 19:21:21 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:21:21 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:21:21 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 19:21:21 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 19:21:21 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 19:21:21 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 418 ms
+2014-11-11 19:22:30 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:21:21 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:22:30 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 19:21:20 CST 2014]; root of context hierarchy
+2014-11-11 19:22:30 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 19:22:30 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 19:22:30 CST 2014]; root of context hierarchy
+2014-11-11 19:22:30 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 19:22:31 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:22:31 [ Timer-1 ] Root WebApplicationContext: initialization completed in 396 ms
+2014-11-11 19:22:31 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 19:22:31 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:22:31 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:22:31 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 19:22:31 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 19:22:31 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 19:22:31 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 194 ms
+2014-11-11 19:22:40 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:22:31 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:22:40 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 19:22:30 CST 2014]; root of context hierarchy
+2014-11-11 19:22:40 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 19:22:41 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 19:22:41 CST 2014]; root of context hierarchy
+2014-11-11 19:22:41 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 19:22:41 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:22:41 [ Timer-1 ] Root WebApplicationContext: initialization completed in 657 ms
+2014-11-11 19:22:41 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 19:22:41 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:22:41 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:22:41 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 19:22:41 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 19:22:41 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 19:22:41 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 218 ms
+2014-11-11 19:23:00 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:22:41 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:23:00 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 19:22:41 CST 2014]; root of context hierarchy
+2014-11-11 19:23:00 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 19:23:00 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 19:23:00 CST 2014]; root of context hierarchy
+2014-11-11 19:23:00 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 19:23:01 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:23:01 [ Timer-1 ] Root WebApplicationContext: initialization completed in 679 ms
+2014-11-11 19:23:01 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 19:23:01 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:23:01 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 19:23:01 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 19:23:01 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 19:23:01 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 19:23:01 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 191 ms
+2014-11-11 20:47:40 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 19:23:01 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 20:47:40 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 19:23:00 CST 2014]; root of context hierarchy
+2014-11-11 20:47:41 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 20:47:41 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 20:47:41 CST 2014]; root of context hierarchy
+2014-11-11 20:47:41 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 20:47:41 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 20:47:42 [ Timer-1 ] Root WebApplicationContext: initialization completed in 605 ms
+2014-11-11 20:47:42 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 20:47:42 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 20:47:42 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 20:47:42 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 20:47:42 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 20:47:42 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 20:47:42 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 190 ms
+2014-11-11 20:53:09 [ main ] Root WebApplicationContext: initialization started
+2014-11-11 20:53:09 [ main ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 20:53:09 CST 2014]; root of context hierarchy
+2014-11-11 20:53:09 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 20:53:09 [ main ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 20:53:10 [ main ] Root WebApplicationContext: initialization completed in 827 ms
+2014-11-11 20:53:10 [ main ] FrameworkServlet 'simple': initialization started
+2014-11-11 20:53:10 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 20:53:10 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 20:53:10 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 20:53:10 [ main ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 20:53:10 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 20:53:11 [ main ] FrameworkServlet 'simple': initialization completed in 735 ms
+2014-11-11 20:53:51 [ Timer-1 ] Closing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 20:53:10 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 20:53:51 [ Timer-1 ] Closing Root WebApplicationContext: startup date [Tue Nov 11 20:53:09 CST 2014]; root of context hierarchy
+2014-11-11 20:53:51 [ Timer-1 ] Root WebApplicationContext: initialization started
+2014-11-11 20:53:51 [ Timer-1 ] Refreshing Root WebApplicationContext: startup date [Tue Nov 11 20:53:51 CST 2014]; root of context hierarchy
+2014-11-11 20:53:52 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2014-11-11 20:53:52 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 20:53:52 [ Timer-1 ] Root WebApplicationContext: initialization completed in 409 ms
+2014-11-11 20:53:52 [ Timer-1 ] FrameworkServlet 'simple': initialization started
+2014-11-11 20:53:52 [ Timer-1 ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Tue Nov 11 20:53:52 CST 2014]; parent: Root WebApplicationContext
+2014-11-11 20:53:52 [ Timer-1 ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2014-11-11 20:53:52 [ Timer-1 ] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/firstshow] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/firstshow.*] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/firstshow/] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/login] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/login.*] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/login/] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/main] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/main.*] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/main/] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/searchItem] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/searchItem.*] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/show/searchItem/] onto handler 'helloWorldController'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2014-11-11 20:53:52 [ Timer-1 ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2014-11-11 20:53:52 [ Timer-1 ] FrameworkServlet 'simple': initialization completed in 207 ms

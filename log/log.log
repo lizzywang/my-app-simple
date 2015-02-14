@@ -1,0 +1,168 @@
+2015-02-11 14:51:55 [ main ] Root WebApplicationContext: initialization started
+2015-02-11 14:51:55 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 11 14:51:55 CST 2015]; root of context hierarchy
+2015-02-11 14:51:55 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-11 14:51:56 [ main ] Root WebApplicationContext: initialization completed in 1208 ms
+2015-02-11 14:51:57 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-11 14:51:57 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 11 14:51:57 CST 2015]; parent: Root WebApplicationContext
+2015-02-11 14:51:57 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/main] onto handler 'firstShowController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/main.*] onto handler 'firstShowController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/main/] onto handler 'firstShowController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/firstshow] onto handler 'firstShowController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/firstshow.*] onto handler 'firstShowController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/firstshow/] onto handler 'firstShowController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/index] onto handler 'indexController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/index.*] onto handler 'indexController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/index/] onto handler 'indexController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/login] onto handler 'loginController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/login.*] onto handler 'loginController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/login/] onto handler 'loginController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/register] onto handler 'registerController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/register.*] onto handler 'registerController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/register/] onto handler 'registerController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/search] onto handler 'searchController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/search.*] onto handler 'searchController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/search/] onto handler 'searchController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/searchajax] onto handler 'searchController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/searchajax.*] onto handler 'searchController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/searchajax/] onto handler 'searchController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/searchresult] onto handler 'searchController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/searchresult.*] onto handler 'searchController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/searchresult/] onto handler 'searchController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/searchItem] onto handler 'searchItemController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/searchItem.*] onto handler 'searchItemController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/searchItem/] onto handler 'searchItemController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/download] onto handler 'toWordController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/download.*] onto handler 'toWordController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/download/] onto handler 'toWordController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/toWord] onto handler 'toWordController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/toWord.*] onto handler 'toWordController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/toWord/] onto handler 'toWordController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/userLogin] onto handler 'userLoginController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/userLogin.*] onto handler 'userLoginController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/show/userLogin/] onto handler 'userLoginController'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-11 14:51:57 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-11 14:51:57 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-11 14:51:57 [ main ] FrameworkServlet 'simple': initialization completed in 523 ms
+2015-02-11 14:53:02 [ main ] Root WebApplicationContext: initialization started
+2015-02-11 14:53:02 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 11 14:53:02 CST 2015]; root of context hierarchy
+2015-02-11 14:53:02 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-11 14:53:03 [ main ] Root WebApplicationContext: initialization completed in 933 ms
+2015-02-11 14:53:03 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-11 14:53:03 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 11 14:53:03 CST 2015]; parent: Root WebApplicationContext
+2015-02-11 14:53:03 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/firstshow] onto handler 'firstShowController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/firstshow.*] onto handler 'firstShowController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/firstshow/] onto handler 'firstShowController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/main] onto handler 'firstShowController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/main.*] onto handler 'firstShowController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/main/] onto handler 'firstShowController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/index] onto handler 'indexController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/index.*] onto handler 'indexController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/index/] onto handler 'indexController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/login] onto handler 'loginController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/login.*] onto handler 'loginController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/login/] onto handler 'loginController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/register] onto handler 'registerController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/register.*] onto handler 'registerController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/register/] onto handler 'registerController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/search] onto handler 'searchController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/search.*] onto handler 'searchController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/search/] onto handler 'searchController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/searchajax] onto handler 'searchController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/searchajax.*] onto handler 'searchController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/searchajax/] onto handler 'searchController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/searchresult] onto handler 'searchController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/searchresult.*] onto handler 'searchController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/searchresult/] onto handler 'searchController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/searchItem] onto handler 'searchItemController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/searchItem.*] onto handler 'searchItemController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/searchItem/] onto handler 'searchItemController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/toWord] onto handler 'toWordController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/toWord.*] onto handler 'toWordController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/toWord/] onto handler 'toWordController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/download] onto handler 'toWordController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/download.*] onto handler 'toWordController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/download/] onto handler 'toWordController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/userLogin] onto handler 'userLoginController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/userLogin.*] onto handler 'userLoginController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/show/userLogin/] onto handler 'userLoginController'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-11 14:53:03 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-11 14:53:03 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-11 14:53:03 [ main ] FrameworkServlet 'simple': initialization completed in 409 ms
+2015-02-11 14:55:20 [ main ] Root WebApplicationContext: initialization started
+2015-02-11 14:55:20 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 11 14:55:20 CST 2015]; root of context hierarchy
+2015-02-11 14:55:21 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-11 14:55:21 [ main ] Root WebApplicationContext: initialization completed in 1111 ms
+2015-02-11 14:55:22 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-11 14:55:22 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 11 14:55:22 CST 2015]; parent: Root WebApplicationContext
+2015-02-11 14:55:22 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/firstshow] onto handler 'firstShowController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/firstshow.*] onto handler 'firstShowController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/firstshow/] onto handler 'firstShowController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/main] onto handler 'firstShowController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/main.*] onto handler 'firstShowController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/main/] onto handler 'firstShowController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/index] onto handler 'indexController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/index.*] onto handler 'indexController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/index/] onto handler 'indexController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/login] onto handler 'loginController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/login.*] onto handler 'loginController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/login/] onto handler 'loginController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/register] onto handler 'registerController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/register.*] onto handler 'registerController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/register/] onto handler 'registerController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/search] onto handler 'searchController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/search.*] onto handler 'searchController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/search/] onto handler 'searchController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/searchresult] onto handler 'searchController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/searchresult.*] onto handler 'searchController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/searchresult/] onto handler 'searchController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/searchajax] onto handler 'searchController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/searchajax.*] onto handler 'searchController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/searchajax/] onto handler 'searchController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/searchItem] onto handler 'searchItemController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/searchItem.*] onto handler 'searchItemController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/searchItem/] onto handler 'searchItemController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/download] onto handler 'toWordController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/download.*] onto handler 'toWordController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/download/] onto handler 'toWordController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/toWord] onto handler 'toWordController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/toWord.*] onto handler 'toWordController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/toWord/] onto handler 'toWordController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/userLogin] onto handler 'userLoginController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/userLogin.*] onto handler 'userLoginController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/show/userLogin/] onto handler 'userLoginController'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-11 14:55:22 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-11 14:55:22 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-11 14:55:22 [ main ] FrameworkServlet 'simple': initialization completed in 552 ms
+2015-02-11 14:56:31 [ qtp833048728-24 ] Request method 'GET' not supported
+2015-02-11 17:50:22 [ main ] Root WebApplicationContext: initialization started
+2015-02-11 17:50:23 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 11 17:50:23 CST 2015]; root of context hierarchy
+2015-02-11 17:50:23 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-11 17:50:23 [ main ] Root WebApplicationContext: initialization completed in 553 ms
+2015-02-11 17:50:23 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-11 17:50:23 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 11 17:50:23 CST 2015]; parent: Root WebApplicationContext
+2015-02-11 17:50:23 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-11 17:50:23 [ main ] Mapped URL path [/show/index] onto handler 'indexController'
+2015-02-11 17:50:23 [ main ] Mapped URL path [/show/index.*] onto handler 'indexController'
+2015-02-11 17:50:23 [ main ] Mapped URL path [/show/index/] onto handler 'indexController'
+2015-02-11 17:50:24 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-11 17:50:24 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-11 17:50:24 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-11 17:50:24 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-11 17:50:24 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-11 17:50:24 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-11 17:50:24 [ main ] FrameworkServlet 'simple': initialization completed in 384 ms
