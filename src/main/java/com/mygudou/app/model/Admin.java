@@ -5,8 +5,8 @@
  import java.io.Serializable;
 
 /** * * @author xinwang * *  */
-public class Admin implements Serializable {
-    private static final long serialVersionUID =1L;
+public class Admin  {
+
     private Integer id;
     private String name;
     private String pass;
