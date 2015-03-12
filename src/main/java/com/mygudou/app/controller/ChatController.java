@@ -27,18 +27,15 @@ public class ChatController {
 		String name = request.getParameter("name");
 		String message = request.getParameter("message");
 		int flag = ChatService.insertMsg(name, message);
-		JSONObject bJson = new JSONObject();
-
-        bJson.put("check", flag);
-
-        String bString = bJson.toJSONString();
-        PrintWriter out = null;
-
+		//String map = ChatService.getChatMsg();
+		JSONObject bjson = new JSONObject();
+		bjson.put("check", 0);
+		PrintWriter out = null;
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
         try {
             out = response.getWriter();
-            out.write(bString);
+            out.write(bjson.toString());
         } catch (IOException e) {
             e.printStackTrace();
         }

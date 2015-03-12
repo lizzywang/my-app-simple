@@ -17,9 +17,8 @@ $(document).ready(function(){
 			message:$("#msg").val(),
 			name:$("#author").val(),
 		},function(data){
-			if(data.check==1){
-				alert("success");
-			}
+			
+			
 		});
 		return false;
 	});
@@ -29,20 +28,18 @@ $(document).ready(function(){
 function updateMsg(){
 
 	$.getJSON("/my-app-simple/simple/getchat",function(data){
-		console.log(data);
 		var html = $("#messagewindow").html();
-		console.log(html);
 		$.each(data,function(commentIndex,comment){
 			
+			console.log(data);
 			var name = comment.name;
 			var content = comment.content;
-			
+			console.log(name);
+			console.log(content);
 			html+='<div class="comment"><h6>'+name+':</h6><p class="para">'+content+'</p></div>';
-		console.log(html);
 		});
 		$("#messagewindow").html(html);
 	
-		console.log(html);
 	});
 	setTimeout('updateMsg()',4000);
 }

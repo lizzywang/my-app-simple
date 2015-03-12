@@ -10,6 +10,7 @@ public interface AdminDao {
         public Admin checkLogin(String name,String pass);
         public Admin checkLogin(String name);
         public int insert(String name,String pass);
+        public Admin getById(int id);
 
 
 

@@ -1,7 +1,10 @@
 
 
 /** * @(#)AdminService.java, 2015年2月11日. * * Copyright 2015 Yodao, Inc. All rights reserved. * YODAO PROPRIETARY/CONFIDENTIAL. Use is subject to license terms. */
- package com.mygudou.app.service; import java.security.MessageDigest;
+ package com.mygudou.app.service; import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
+import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 import javax.annotation.Resource;
@@ -42,17 +45,24 @@ public class AdminService {
          Cookie cookies[] = request.getCookies();
          if(cookies!=null){
         	 for(Cookie cookie:cookies){
-        		 System.out.println(cookie.getName()+cookie.getPath());
+        		
         		 if("autologin".equals(cookie.getName())){
                      autoCookie = cookie;
                  }
         	 }
         	 if(autoCookie == null){
         		 return false;
+        	
         	 }
         	 String value = autoCookie.getValue();
+        	 try {
+				value = URLDecoder.decode(value,"utf-8");
+			} catch (UnsupportedEncodingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
              String temp[] = value.split(":");
-             System.out.println(temp.length);
+             
              if(temp.length!=3){
             	 return false;
              }
@@ -65,10 +75,12 @@ public class AdminService {
              }
              
              Admin entity = AdminDao.checkLogin(name);
+             
              if(entity == null){
             	 return false;
                  }
              String md5Temp = entity.getName() + ":" + entity.getPass()+":"+time;
+             
              if(!(md5Value(md5Temp).equals(service_md5value))){
              	return false;
              }
@@ -117,6 +129,13 @@ public class AdminService {
                          String cookieValue = name + ":" + time + ":"  
                                  + md5Value(name + ":" + pass + ":" + time);  
                          //创建cookie  
+                        // name = java.net.URLEncoder.encode(name,"gbk");
+                         try {
+							cookieValue = URLEncoder.encode(cookieValue,"utf-8");
+						} catch (UnsupportedEncodingException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
                          autoCookie = new Cookie("autologin", cookieValue);
                        }
                  }

@@ -7,7 +7,9 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import net.sf.json.JSONObject;
+
+
+
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -16,9 +18,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import scala.util.parsing.json.JSON;
 
+
+
+
+import com.alibaba.fastjson.JSONObject;
 import com.mygudou.app.daoimpl.AdminDaoimpl;
+import com.mygudou.app.model.Admin;
 import com.mygudou.app.service.AdminService;
 /**
  * 首页登录
@@ -36,14 +42,14 @@ public class IndexController {
     public ModelAndView showLoginForm(HttpServletRequest request,HttpServletResponse response){
     	ModelAndView mv =  new ModelAndView();
     	boolean flag = AdminService.LoginCheck(request, response);
-    	
     	if(!flag){
     		mv.setViewName("showform");
         }
     	else{
+    		Admin admin = (Admin) request.getSession().getAttribute("admin");
     		
-    		mv.addObject("message", "登录成功");
-    		mv.setViewName("success");
+    		mv.addObject("admin1",admin);
+    		mv.setViewName("board");
     	}
     	return mv;
       }
@@ -52,8 +58,11 @@ public class IndexController {
         ModelAndView mv = new ModelAndView();
         boolean flag = AdminService.Loginconf(req, resp);
         if(flag){
-            mv.addObject("message", "登录成功");
-            mv.setViewName("success");
+            
+            Admin admin = (Admin) req.getSession().getAttribute("admin");
+    		
+    		mv.addObject("admin1",admin);
+            mv.setViewName("board");
         }else{
             mv.addObject("message", "您输入的的用户名或密码错误");
             mv.setViewName("showform");
@@ -61,13 +70,13 @@ public class IndexController {
         return mv;
        }    
     
-    @RequestMapping(value="/signup" ,method = RequestMethod.GET)
+    @RequestMapping(value="/signup")
     public String simplesignup(){
     	return "simplesignup";
     }
     
 	
-    @RequestMapping(value="/signup" ,method = RequestMethod.POST)
+    @RequestMapping(value="/sign")
     public void signup(String name,String pass,HttpServletResponse response){
     	
     	int affectRows = AdminDao.insert(name, pass);
@@ -75,8 +84,8 @@ public class IndexController {
 		bjson.put("check", affectRows);
 		String bString = bjson.toString();
 		PrintWriter out = null;
-		 response.setContentType("application/json");
-	        response.setCharacterEncoding("UTF-8");
+		response.setContentType("application/json");
+	    response.setCharacterEncoding("UTF-8");
 	        try {
 	            out = response.getWriter();
 	            out.write(bString);

@@ -1,0 +1,222 @@
+2015-02-25 08:58:14 [ main ] Root WebApplicationContext: initialization started
+2015-02-25 08:58:14 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 25 08:58:14 CST 2015]; root of context hierarchy
+2015-02-25 08:58:14 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-25 08:58:16 [ main ] Root WebApplicationContext: initialization completed in 1527 ms
+2015-02-25 08:58:16 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-25 08:58:16 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 25 08:58:16 CST 2015]; parent: Root WebApplicationContext
+2015-02-25 08:58:16 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-25 08:58:16 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-25 08:58:16 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-25 08:58:17 [ main ] FrameworkServlet 'simple': initialization completed in 788 ms
+2015-02-25 09:00:25 [ qtp10749831-23 ] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-02-25 09:00:25 [ qtp10749831-23 ] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2015-02-25 09:16:34 [ main ] Root WebApplicationContext: initialization started
+2015-02-25 09:16:34 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 25 09:16:34 CST 2015]; root of context hierarchy
+2015-02-25 09:16:34 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-25 09:16:35 [ main ] Root WebApplicationContext: initialization completed in 1057 ms
+2015-02-25 09:16:35 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-25 09:16:35 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 25 09:16:35 CST 2015]; parent: Root WebApplicationContext
+2015-02-25 09:16:35 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-02-25 09:16:35 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-02-25 09:16:36 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-25 09:16:36 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-25 09:16:36 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-25 09:16:36 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-25 09:16:36 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-25 09:16:36 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-25 09:16:36 [ main ] FrameworkServlet 'simple': initialization completed in 667 ms
+2015-02-25 09:20:20 [ main ] Root WebApplicationContext: initialization started
+2015-02-25 09:20:21 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 25 09:20:21 CST 2015]; root of context hierarchy
+2015-02-25 09:20:21 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-25 09:20:21 [ main ] Root WebApplicationContext: initialization completed in 985 ms
+2015-02-25 09:20:22 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-25 09:20:22 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 25 09:20:22 CST 2015]; parent: Root WebApplicationContext
+2015-02-25 09:20:22 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-25 09:20:22 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-25 09:20:22 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-25 09:20:22 [ main ] FrameworkServlet 'simple': initialization completed in 563 ms
+2015-02-25 09:23:14 [ qtp10749831-28 ] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-02-25 09:23:14 [ qtp10749831-28 ] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2015-02-25 09:31:22 [ main ] Root WebApplicationContext: initialization started
+2015-02-25 09:31:22 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 25 09:31:22 CST 2015]; root of context hierarchy
+2015-02-25 09:31:22 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-25 09:31:23 [ main ] Root WebApplicationContext: initialization completed in 1198 ms
+2015-02-25 09:31:23 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-25 09:31:23 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 25 09:31:23 CST 2015]; parent: Root WebApplicationContext
+2015-02-25 09:31:23 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-02-25 09:31:23 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-02-25 09:31:24 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-25 09:31:24 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-25 09:31:24 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-25 09:31:24 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-25 09:31:24 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-25 09:31:24 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-25 09:31:24 [ main ] FrameworkServlet 'simple': initialization completed in 761 ms
+2015-02-25 09:32:21 [ qtp10749831-23 ] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-02-25 09:32:21 [ qtp10749831-23 ] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2015-02-25 09:34:02 [ main ] Root WebApplicationContext: initialization started
+2015-02-25 09:34:02 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 25 09:34:02 CST 2015]; root of context hierarchy
+2015-02-25 09:34:02 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-25 09:34:03 [ main ] Root WebApplicationContext: initialization completed in 1141 ms
+2015-02-25 09:34:03 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-25 09:34:03 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 25 09:34:03 CST 2015]; parent: Root WebApplicationContext
+2015-02-25 09:34:03 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-02-25 09:34:03 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-02-25 09:34:04 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-25 09:34:04 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-25 09:34:04 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-25 09:34:04 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-25 09:34:04 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-25 09:34:04 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-25 09:34:04 [ main ] FrameworkServlet 'simple': initialization completed in 788 ms
+2015-02-25 09:34:07 [ qtp15359367-24 ] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-02-25 09:34:07 [ qtp15359367-24 ] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2015-02-25 09:47:56 [ main ] Root WebApplicationContext: initialization started
+2015-02-25 09:47:56 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 25 09:47:56 CST 2015]; root of context hierarchy
+2015-02-25 09:47:56 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-25 09:47:57 [ main ] Root WebApplicationContext: initialization completed in 1098 ms
+2015-02-25 09:47:57 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-25 09:47:57 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 25 09:47:57 CST 2015]; parent: Root WebApplicationContext
+2015-02-25 09:47:57 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-02-25 09:47:57 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-02-25 09:47:58 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-25 09:47:58 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-25 09:47:58 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-25 09:47:58 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-25 09:47:58 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-25 09:47:58 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-25 09:47:58 [ main ] FrameworkServlet 'simple': initialization completed in 853 ms
+2015-02-25 09:49:13 [ qtp10749831-21 ] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-02-25 09:49:13 [ qtp10749831-21 ] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2015-02-25 10:03:16 [ main ] Root WebApplicationContext: initialization started
+2015-02-25 10:03:16 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 25 10:03:16 CST 2015]; root of context hierarchy
+2015-02-25 10:03:16 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-25 10:03:17 [ main ] Root WebApplicationContext: initialization completed in 1281 ms
+2015-02-25 10:03:17 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-25 10:03:17 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 25 10:03:17 CST 2015]; parent: Root WebApplicationContext
+2015-02-25 10:03:17 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-02-25 10:03:17 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-02-25 10:03:18 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-25 10:03:18 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-25 10:03:18 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-25 10:03:18 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-25 10:03:18 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-25 10:03:18 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-25 10:03:18 [ main ] FrameworkServlet 'simple': initialization completed in 758 ms
+2015-02-25 10:04:27 [ qtp10749831-24 ] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-02-25 10:04:27 [ qtp10749831-24 ] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2015-02-25 10:05:12 [ main ] Root WebApplicationContext: initialization started
+2015-02-25 10:05:12 [ main ] Refreshing Root WebApplicationContext: startup date [Wed Feb 25 10:05:12 CST 2015]; root of context hierarchy
+2015-02-25 10:05:12 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-02-25 10:05:13 [ main ] Root WebApplicationContext: initialization completed in 1163 ms
+2015-02-25 10:05:13 [ main ] FrameworkServlet 'simple': initialization started
+2015-02-25 10:05:13 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Wed Feb 25 10:05:13 CST 2015]; parent: Root WebApplicationContext
+2015-02-25 10:05:14 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-02-25 10:05:14 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-02-25 10:05:14 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-02-25 10:05:14 [ main ] FrameworkServlet 'simple': initialization completed in 832 ms
+2015-02-25 10:05:16 [ qtp10749831-22 ] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-02-25 10:05:16 [ qtp10749831-22 ] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]

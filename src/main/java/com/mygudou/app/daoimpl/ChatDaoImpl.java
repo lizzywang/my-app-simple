@@ -40,7 +40,7 @@ public class ChatDaoImpl implements ChatDao{
 
 	@Override
 	public List<Message> queryMsg(Timestamp timestamp) {
-		String sql = "select * from message where timestamp >=timestamp('"+timestamp+"')";
+		String sql = "select * from message where timestamp >=TIMESTAMP('"+timestamp+"')";
 		List<Message> messages = jdbcTemplate.query(sql, new MessageRowMapper());
 		for(int i = 0;i<messages.size();i++){
 			System.out.println(messages.get(i).getName()+messages.get(i).getContent());

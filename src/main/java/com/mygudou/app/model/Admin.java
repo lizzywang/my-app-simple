@@ -8,8 +8,10 @@
 public class Admin  {
 
     private Integer id;
-    private String name;
+    
+	private String name;
     private String pass;
+    private String friendID;
     public Admin(){
         super();
     }
@@ -19,6 +21,12 @@ public class Admin  {
         this.name = name;
         this.pass= pass;
     }
+    public String getFriendID() {
+		return friendID;
+	}
+	public void setFriendID(String friendID) {
+		this.friendID = friendID;
+	}
     public Integer getId() {
         return id;
     }

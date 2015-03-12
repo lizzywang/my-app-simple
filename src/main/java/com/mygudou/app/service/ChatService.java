@@ -1,6 +1,7 @@
 package com.mygudou.app.service;
 
 import java.sql.Timestamp;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -23,7 +24,7 @@ public class ChatService {
 	@Resource(name="ChatDao")
 	private ChatDaoImpl ChatDao;
 	
-	public static final int delay = 4000;
+	public static final int delay =4000;
 	public int insertMsg(String name,String content){
 		Date date = new Date();
         Timestamp timestamp = new Timestamp(date.getTime());
@@ -32,8 +33,11 @@ public class ChatService {
 	}
 	
 	public String getChatMsg(){
-		Date date = new Date();
-        Timestamp timestamp = new Timestamp(date.getTime()-delay);
+	
+		 Calendar calendar = Calendar.getInstance();
+		 Timestamp timestamp =null;
+		 calendar.add(Calendar.SECOND, -40);
+		 timestamp = new Timestamp(calendar.getTime().getTime());
         System.out.println(timestamp);
         List<Message> messages = ChatDao.queryMsg(timestamp);
         String jsonStr = JSON.toJSONString(messages);

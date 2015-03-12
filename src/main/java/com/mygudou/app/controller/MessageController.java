@@ -1,0 +1,53 @@
+package com.mygudou.app.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.mygudou.app.service.MessageService;
+
+@Controller
+@RequestMapping(value = "/message")
+public class MessageController {
+	
+    
+    @Resource(name = "MessageService")
+    private MessageService MessageService;
+	@ResponseBody
+	@RequestMapping(value = "/add",method =RequestMethod.POST)
+	public void addMessage(@RequestBody String json,HttpServletRequest request,HttpServletResponse response){
+		System.out.println(json);
+		JSONObject jsonString = JSON.parseObject(json);
+		System.out.println("1");
+		int from_id = jsonString.getIntValue("from");
+		int to_id = jsonString.getIntValue("to");
+		String message = jsonString.getString("message");
+		int affectRows = MessageService.addMessage(message, from_id, to_id);
+		JSONObject bJson = new JSONObject();
+		bJson.put("check", affectRows);
+		String bString = bJson.toJSONString();
+	    PrintWriter out = null;
+	    response.setContentType("application/json");
+	    response.setCharacterEncoding("UTF-8");
+	    try {
+	          out = response.getWriter();
+	          out.write(bString);
+	        } catch (IOException e) {
+	            e.printStackTrace();
+	        }
+		
+		
+	}
+}

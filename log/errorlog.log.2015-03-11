@@ -1,4 +1,4 @@
-2015-03-12 16:47:12 [ main ] Context initialization failed
+2015-03-11 23:41:55 [ main ] Context initialization failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'friendController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'FriendService' is defined
 	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:308)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
