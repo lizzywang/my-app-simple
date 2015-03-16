@@ -17,6 +17,8 @@ public class NoteRowMapper implements RowMapper<Note>{
 		note.setTo(rs.getInt("to_id"));
 		note.setMessage(rs.getString("message"));
 		note.setTimeStamp(rs.getTimestamp("timestamp"));
+		note.setCommitName(rs.getString("commitname"));
+		note.setToName(rs.getString("toname"));
 		return note;
 	}
 

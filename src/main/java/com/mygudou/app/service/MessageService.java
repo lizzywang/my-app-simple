@@ -21,10 +21,10 @@ public class MessageService {
 	@Resource(name = "MessageDao")
     private MessageDaoImpl MessageDao;
 	
-	public int addMessage(String message,int from,int to){
+	public int addMessage(String message,int from,int to,String commitName,String toName){
 		Date date = new Date();
 		Timestamp timestamp = new Timestamp(date.getTime());
-		int affectRows = MessageDao.addMessage(message, from, to,timestamp);
+		int affectRows = MessageDao.addMessage(message, from, to,timestamp,commitName,toName);
 		return affectRows;
 	}
 	

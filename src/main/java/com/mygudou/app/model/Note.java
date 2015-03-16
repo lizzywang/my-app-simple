@@ -7,7 +7,22 @@ public class Note {
 	private int to;
 	private String message;
 	private Timestamp timeStamp;
+	private String commitName;
+	private String toName;
 	
+	
+	public String getCommitName() {
+		return commitName;
+	}
+	public void setCommitName(String commitName) {
+		this.commitName = commitName;
+	}
+	public String getToName() {
+		return toName;
+	}
+	public void setToName(String toName) {
+		this.toName = toName;
+	}
 	public int getFrom() {
 		return from;
 	}

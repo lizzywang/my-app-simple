@@ -69,8 +69,13 @@ $(document).ready(function(){
 	updateMsg();
 	$('#leaveMessage').on('click',function(){
 		console.log('hi');
+		var commitName = '${admin.name}';
+		var toName = '${admin1.name}';
 		var to = ${admin1.id };
 		console.log(to);
+		console.log("from: "+commitName);
+		console.log("to: "+toName);
+		
 		var from = ${admin.id};
 		console.log(from);
 		var message = $('#message').val();
@@ -81,7 +86,7 @@ $(document).ready(function(){
 			type:"post",
 			contentType: "application/json; charset=utf-8",
 			dataType: "json",
-			data:JSON.stringify({"from":from,"to":to,"message":message}),
+			data:JSON.stringify({"from":from,"to":to,"message":message,"commitName":commitName,"toName":toName}),
 			success:function(data){
 				if(data.check == 1){
 					refreshPage();	
@@ -109,9 +114,10 @@ function updateMsg(){
 		dataType: "json",
 		success:function(data){
 			$.each(data,function(index,note){
-				var id = note.from_id;
+				var commitname = note.commitName;
 				var message = note.message;
-				html+='<div class="comment"><h6>'+id+':</h6><p class="para">'+message+'</p></div>';
+				var timestamp = json2TimeStamp(note.timeStamp);
+				html+='<div class="comment"><h6>'+commitname+':</h6><p class="para">'+message+'</p><p>'+timestamp+'</p></div>';
 				
 			});
 			$("#MessageList").html(html);
@@ -120,6 +126,19 @@ function updateMsg(){
 		
 	});
 	setTimeout('updateMsg()',4000);
+}
+
+function json2TimeStamp(milliseconds){
+    var datetime = new Date();
+    datetime.setTime(milliseconds);
+    var year=datetime.getFullYear();
+         //月份重0开始，所以要加1，当小于10月时，为了显示2位的月份，所以补0
+    var month = datetime.getMonth() + 1 < 10 ? "0" + (datetime.getMonth() + 1) : datetime.getMonth() + 1;
+    var date = datetime.getDate() < 10 ? "0" + datetime.getDate() : datetime.getDate();
+    var hour = datetime.getHours()< 10 ? "0" + datetime.getHours() : datetime.getHours();
+    var minute = datetime.getMinutes()< 10 ? "0" + datetime.getMinutes() : datetime.getMinutes();
+    var second = datetime.getSeconds()< 10 ? "0" + datetime.getSeconds() : datetime.getSeconds();
+    return year + "-" + month + "-" + date+" "+hour+":"+minute+":"+second;
 }
 </script>
 <script type="text/javascript"  src="../js/jquery.js"></script>

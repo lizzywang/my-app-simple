@@ -41,7 +41,9 @@ public class MessageController {
 		int from_id = jsonString.getIntValue("from");
 		int to_id = jsonString.getIntValue("to");
 		String message = jsonString.getString("message");
-		int affectRows = MessageService.addMessage(message, from_id, to_id);
+		String commitName = jsonString.getString("commitName");
+		String toName = jsonString.getString("toName");
+		int affectRows = MessageService.addMessage(message, from_id, to_id,commitName,toName);
 		JSONObject bJson = new JSONObject();
 		bJson.put("check", affectRows);
 		String bString = bJson.toJSONString();

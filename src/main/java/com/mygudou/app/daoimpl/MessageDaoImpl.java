@@ -22,18 +22,21 @@ public class MessageDaoImpl implements MessageDao{
 	@Resource(name = "myjdbcTemplate")
 	private JdbcTemplate jdbcTemplate; 
 	@Override
-	public int addMessage(final String message, final int from, final int to,final Timestamp timestamp) {
+	public int addMessage(final String message, final int from, final int to,final Timestamp timestamp,final String commitName,final String toName) {
 		int affectRows = jdbcTemplate.update(new PreparedStatementCreator(){
 
 			@Override
 			public PreparedStatement createPreparedStatement(Connection conn)
 					throws SQLException {
-				String sql = "insert into note values(?,?,?,?)";
+				String sql = "insert into note values(?,?,?,?,?,?)";
 				PreparedStatement ps = conn.prepareStatement(sql);
 				ps.setInt(1, from);
 				ps.setInt(2, to);
 				ps.setString(3, message);
 				ps.setTimestamp(4, timestamp);
+				ps.setString(5, commitName);
+				ps.setString(6, toName);
+				
 				return ps;
 			}
 			

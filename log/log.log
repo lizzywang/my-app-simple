@@ -371,3 +371,385 @@
 2015-03-16 19:41:52 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
 2015-03-16 19:41:52 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
 2015-03-16 19:41:52 [ main ] FrameworkServlet 'simple': initialization completed in 806 ms
+2015-03-16 20:13:17 [ main ] Root WebApplicationContext: initialization started
+2015-03-16 20:13:17 [ main ] Refreshing Root WebApplicationContext: startup date [Mon Mar 16 20:13:17 CST 2015]; root of context hierarchy
+2015-03-16 20:13:17 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-03-16 20:13:18 [ main ] Root WebApplicationContext: initialization completed in 1625 ms
+2015-03-16 20:13:19 [ main ] FrameworkServlet 'simple': initialization started
+2015-03-16 20:13:19 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Mon Mar 16 20:13:19 CST 2015]; parent: Root WebApplicationContext
+2015-03-16 20:13:19 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/getList] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/getList.*] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/getList/] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/search] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/search.*] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/search/] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/add] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/add.*] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/add/] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/enterMsg] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/enterMsg.*] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/friend/enterMsg/] onto handler 'friendController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/sign] onto handler 'indexController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/sign.*] onto handler 'indexController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/simple/sign/] onto handler 'indexController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/message/getMessageList] onto handler 'messageController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/message/getMessageList.*] onto handler 'messageController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/message/getMessageList/] onto handler 'messageController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/message/add] onto handler 'messageController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/message/add.*] onto handler 'messageController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/message/add/] onto handler 'messageController'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-03-16 20:13:19 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-03-16 20:13:19 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-03-16 20:13:19 [ main ] FrameworkServlet 'simple': initialization completed in 978 ms
+2015-03-16 20:21:53 [ main ] Root WebApplicationContext: initialization started
+2015-03-16 20:21:53 [ main ] Refreshing Root WebApplicationContext: startup date [Mon Mar 16 20:21:53 CST 2015]; root of context hierarchy
+2015-03-16 20:21:53 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-03-16 20:21:54 [ main ] Root WebApplicationContext: initialization completed in 1772 ms
+2015-03-16 20:21:55 [ main ] FrameworkServlet 'simple': initialization started
+2015-03-16 20:21:55 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Mon Mar 16 20:21:55 CST 2015]; parent: Root WebApplicationContext
+2015-03-16 20:21:55 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/getList] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/getList.*] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/getList/] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/search] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/search.*] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/search/] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/add] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/add.*] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/add/] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/enterMsg] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/enterMsg.*] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/friend/enterMsg/] onto handler 'friendController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/sign] onto handler 'indexController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/sign.*] onto handler 'indexController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/simple/sign/] onto handler 'indexController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/message/getMessageList] onto handler 'messageController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/message/getMessageList.*] onto handler 'messageController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/message/getMessageList/] onto handler 'messageController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/message/add] onto handler 'messageController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/message/add.*] onto handler 'messageController'
+2015-03-16 20:21:55 [ main ] Mapped URL path [/message/add/] onto handler 'messageController'
+2015-03-16 20:21:56 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-03-16 20:21:56 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-03-16 20:21:56 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-03-16 20:21:56 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-03-16 20:21:56 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-03-16 20:21:56 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-03-16 20:21:56 [ main ] FrameworkServlet 'simple': initialization completed in 1295 ms
+2015-03-16 20:29:46 [ qtp10749831-30 ] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-03-16 20:29:46 [ qtp10749831-30 ] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2015-03-16 20:39:52 [ main ] Root WebApplicationContext: initialization started
+2015-03-16 20:39:52 [ main ] Refreshing Root WebApplicationContext: startup date [Mon Mar 16 20:39:52 CST 2015]; root of context hierarchy
+2015-03-16 20:39:52 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-03-16 20:39:53 [ main ] Root WebApplicationContext: initialization completed in 1218 ms
+2015-03-16 20:39:53 [ main ] FrameworkServlet 'simple': initialization started
+2015-03-16 20:39:53 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Mon Mar 16 20:39:53 CST 2015]; parent: Root WebApplicationContext
+2015-03-16 20:39:53 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/getList] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/getList.*] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/getList/] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/search] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/search.*] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/search/] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/add] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/add.*] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/add/] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/enterMsg] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/enterMsg.*] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/friend/enterMsg/] onto handler 'friendController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/sign] onto handler 'indexController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/sign.*] onto handler 'indexController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/simple/sign/] onto handler 'indexController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/message/getMessageList] onto handler 'messageController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/message/getMessageList.*] onto handler 'messageController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/message/getMessageList/] onto handler 'messageController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/message/add] onto handler 'messageController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/message/add.*] onto handler 'messageController'
+2015-03-16 20:39:53 [ main ] Mapped URL path [/message/add/] onto handler 'messageController'
+2015-03-16 20:39:54 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-03-16 20:39:54 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-03-16 20:39:54 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-03-16 20:39:54 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-03-16 20:39:54 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-03-16 20:39:54 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-03-16 20:39:54 [ main ] FrameworkServlet 'simple': initialization completed in 653 ms
+2015-03-16 20:40:28 [ qtp10749831-22 ] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-03-16 20:40:28 [ qtp10749831-22 ] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2015-03-16 20:44:45 [ main ] Root WebApplicationContext: initialization started
+2015-03-16 20:44:45 [ main ] Refreshing Root WebApplicationContext: startup date [Mon Mar 16 20:44:45 CST 2015]; root of context hierarchy
+2015-03-16 20:44:45 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-03-16 20:44:47 [ main ] Root WebApplicationContext: initialization completed in 1880 ms
+2015-03-16 20:44:47 [ main ] FrameworkServlet 'simple': initialization started
+2015-03-16 20:44:47 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Mon Mar 16 20:44:47 CST 2015]; parent: Root WebApplicationContext
+2015-03-16 20:44:47 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/getList] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/getList.*] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/getList/] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/search] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/search.*] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/search/] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/add] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/add.*] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/add/] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/enterMsg] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/enterMsg.*] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/friend/enterMsg/] onto handler 'friendController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/sign] onto handler 'indexController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/sign.*] onto handler 'indexController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/simple/sign/] onto handler 'indexController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/message/getMessageList] onto handler 'messageController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/message/getMessageList.*] onto handler 'messageController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/message/getMessageList/] onto handler 'messageController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/message/add] onto handler 'messageController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/message/add.*] onto handler 'messageController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/message/add/] onto handler 'messageController'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-03-16 20:44:48 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-03-16 20:44:48 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-03-16 20:44:48 [ main ] FrameworkServlet 'simple': initialization completed in 1042 ms
+2015-03-16 20:45:23 [ qtp10749831-24 ] Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2015-03-16 20:45:23 [ qtp10749831-24 ] SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase]
+2015-03-16 20:46:39 [ main ] Root WebApplicationContext: initialization started
+2015-03-16 20:46:40 [ main ] Refreshing Root WebApplicationContext: startup date [Mon Mar 16 20:46:40 CST 2015]; root of context hierarchy
+2015-03-16 20:46:40 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-03-16 20:46:41 [ main ] Root WebApplicationContext: initialization completed in 2064 ms
+2015-03-16 20:46:41 [ main ] FrameworkServlet 'simple': initialization started
+2015-03-16 20:46:41 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Mon Mar 16 20:46:41 CST 2015]; parent: Root WebApplicationContext
+2015-03-16 20:46:41 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/search] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/search.*] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/search/] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/add] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/add.*] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/add/] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/enterMsg] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/enterMsg.*] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/enterMsg/] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/getList] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/getList.*] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/friend/getList/] onto handler 'friendController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/sign] onto handler 'indexController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/sign.*] onto handler 'indexController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/simple/sign/] onto handler 'indexController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/message/getMessageList] onto handler 'messageController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/message/getMessageList.*] onto handler 'messageController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/message/getMessageList/] onto handler 'messageController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/message/add] onto handler 'messageController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/message/add.*] onto handler 'messageController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/message/add/] onto handler 'messageController'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-03-16 20:46:42 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-03-16 20:46:42 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-03-16 20:46:43 [ main ] FrameworkServlet 'simple': initialization completed in 1055 ms
+2015-03-16 20:49:41 [ main ] Root WebApplicationContext: initialization started
+2015-03-16 20:49:42 [ main ] Refreshing Root WebApplicationContext: startup date [Mon Mar 16 20:49:42 CST 2015]; root of context hierarchy
+2015-03-16 20:49:42 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-03-16 20:49:43 [ main ] Root WebApplicationContext: initialization completed in 1252 ms
+2015-03-16 20:49:43 [ main ] FrameworkServlet 'simple': initialization started
+2015-03-16 20:49:43 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Mon Mar 16 20:49:43 CST 2015]; parent: Root WebApplicationContext
+2015-03-16 20:49:43 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/getList] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/getList.*] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/getList/] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/search] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/search.*] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/search/] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/add] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/add.*] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/add/] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/enterMsg] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/enterMsg.*] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/friend/enterMsg/] onto handler 'friendController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/sign] onto handler 'indexController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/sign.*] onto handler 'indexController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/simple/sign/] onto handler 'indexController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/message/getMessageList] onto handler 'messageController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/message/getMessageList.*] onto handler 'messageController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/message/getMessageList/] onto handler 'messageController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/message/add] onto handler 'messageController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/message/add.*] onto handler 'messageController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/message/add/] onto handler 'messageController'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-03-16 20:49:43 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-03-16 20:49:44 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-03-16 20:49:44 [ main ] FrameworkServlet 'simple': initialization completed in 763 ms
+2015-03-16 21:03:03 [ main ] Root WebApplicationContext: initialization started
+2015-03-16 21:03:03 [ main ] Refreshing Root WebApplicationContext: startup date [Mon Mar 16 21:03:03 CST 2015]; root of context hierarchy
+2015-03-16 21:03:03 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-03-16 21:03:04 [ main ] Root WebApplicationContext: initialization completed in 1218 ms
+2015-03-16 21:03:04 [ main ] FrameworkServlet 'simple': initialization started
+2015-03-16 21:03:05 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Mon Mar 16 21:03:05 CST 2015]; parent: Root WebApplicationContext
+2015-03-16 21:03:05 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/getList] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/getList.*] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/getList/] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/search] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/search.*] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/search/] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/add] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/add.*] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/add/] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/enterMsg] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/enterMsg.*] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/friend/enterMsg/] onto handler 'friendController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/sign] onto handler 'indexController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/sign.*] onto handler 'indexController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/simple/sign/] onto handler 'indexController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/message/getMessageList] onto handler 'messageController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/message/getMessageList.*] onto handler 'messageController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/message/getMessageList/] onto handler 'messageController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/message/add] onto handler 'messageController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/message/add.*] onto handler 'messageController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/message/add/] onto handler 'messageController'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-03-16 21:03:05 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-03-16 21:03:05 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-03-16 21:03:05 [ main ] FrameworkServlet 'simple': initialization completed in 681 ms
+2015-03-16 21:25:32 [ main ] Root WebApplicationContext: initialization started
+2015-03-16 21:25:32 [ main ] Refreshing Root WebApplicationContext: startup date [Mon Mar 16 21:25:32 CST 2015]; root of context hierarchy
+2015-03-16 21:25:32 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2015-03-16 21:25:34 [ main ] Root WebApplicationContext: initialization completed in 2150 ms
+2015-03-16 21:25:34 [ main ] FrameworkServlet 'simple': initialization started
+2015-03-16 21:25:34 [ main ] Refreshing WebApplicationContext for namespace 'simple-servlet': startup date [Mon Mar 16 21:25:34 CST 2015]; parent: Root WebApplicationContext
+2015-03-16 21:25:34 [ main ] Loading XML bean definitions from ServletContext resource [/WEB-INF/simple-servlet.xml]
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/chat] onto handler 'chatController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/chat.*] onto handler 'chatController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/chat/] onto handler 'chatController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/getchat] onto handler 'chatController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/getchat.*] onto handler 'chatController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/getchat/] onto handler 'chatController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/getList] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/getList.*] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/getList/] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/search] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/search.*] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/search/] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/add] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/add.*] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/add/] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/enterMsg] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/enterMsg.*] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/friend/enterMsg/] onto handler 'friendController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/login] onto handler 'indexController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/login.*] onto handler 'indexController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/login/] onto handler 'indexController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/signup] onto handler 'indexController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/signup.*] onto handler 'indexController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/signup/] onto handler 'indexController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/sign] onto handler 'indexController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/sign.*] onto handler 'indexController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/simple/sign/] onto handler 'indexController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/message/getMessageList] onto handler 'messageController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/message/getMessageList.*] onto handler 'messageController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/message/getMessageList/] onto handler 'messageController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/message/add] onto handler 'messageController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/message/add.*] onto handler 'messageController'
+2015-03-16 21:25:34 [ main ] Mapped URL path [/message/add/] onto handler 'messageController'
+2015-03-16 21:25:35 [ main ] Mapped URL path [/themes/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2015-03-16 21:25:35 [ main ] Mapped URL path [/scripts/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+2015-03-16 21:25:35 [ main ] Mapped URL path [/styles/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#2'
+2015-03-16 21:25:35 [ main ] Mapped URL path [/images/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#3'
+2015-03-16 21:25:35 [ main ] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+2015-03-16 21:25:35 [ main ] Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2015-03-16 21:25:35 [ main ] FrameworkServlet 'simple': initialization completed in 1119 ms
