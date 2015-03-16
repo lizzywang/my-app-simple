@@ -26,8 +26,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
+      <li><a href="#">{admin1.name }</a></li>
         <li class="active"><a href="/my-app-simple/friend/getList">我的好友 <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
@@ -72,13 +73,18 @@
   <button id="leaveMessage">留言</button>
   </div>
 </div>
+<div id="MessageList">
+</div>
 <script type="text/javascript">
 $(function(){
+	updateMsg();
+	
 	
 	function refreshPage(){
    	 window.location.href="/my-app-simple/friend/enterMsg?id=${admin1.id}";
    	
    }
+	
 	$('#leaveMessage').on('click',function(){
 		console.log('hi');
 		var to = ${admin1.id };
@@ -98,10 +104,34 @@ $(function(){
 			success:function(data){
 				if(data.check == 1){
 					refreshPage();	
+					
 				}
 			}
 		});
 	});
+	function updateMsg(){
+		var html = $("#MessageList").html();
+		var id = ${admin1.id};
+		$.ajax({
+			url:"/my-app-simple/message/getMessageList",
+			type:"get",
+			data:{"id":id },
+			contentType: "application/json; charset=utf-8",
+			dataType: "json",
+			success:function(data){
+				$.each(data,function(index,note){
+					var id = note.from_id;
+					var message = note.message;
+					html+='<div class="comment"><h6>'+id+':</h6><p class="para">'+message+'</p></div>';
+					
+				});
+				$("#MessageList").html(html);
+			}
+			
+			
+		});
+		setTimeout('updateMsg()',4000);
+	}
 });
 </script>
 <script type="text/javascript"  src="../js/jquery.js"></script>

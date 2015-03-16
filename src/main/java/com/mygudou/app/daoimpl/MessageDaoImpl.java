@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.Timestamp;
+import java.util.List;
 
 import javax.annotation.Resource;
 
@@ -12,6 +13,8 @@ import org.springframework.jdbc.core.PreparedStatementCreator;
 import org.springframework.stereotype.Repository;
 
 import com.mygudou.app.dao.MessageDao;
+import com.mygudou.app.model.Note;
+import com.mygudou.app.rowmapper.NoteRowMapper;
 
 @Repository("MessageDao")
 public class MessageDaoImpl implements MessageDao{
@@ -37,6 +40,12 @@ public class MessageDaoImpl implements MessageDao{
 		});
 		return affectRows;
 		
+	}
+	@Override
+	public List<Note> getMessageList(String from) {
+		String sql = "select * from note where to_id="+from+" order by timestamp desc";
+		List<Note> notes = jdbcTemplate.query(sql, new NoteRowMapper());
+		return notes;
 	}
 
 }
