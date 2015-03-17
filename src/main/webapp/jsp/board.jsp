@@ -6,6 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>留言板</title>
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css"></link>
 <script type="text/javascript"  src="../js/jquery.js"></script>
 <script type="text/javascript"  src="../js/jsrender.min.js"></script>
 <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css"></link>
@@ -70,7 +71,42 @@
 <br/>
 <div id="MessageList">
 </div>
+
 </div>
+
+<script id="theTmpl" type="text/x-jsrender">
+<article class="am-comment">
+ 
+
+  <div class="am-comment-main">
+    <header class="am-comment-hd">
+    
+      <div class="am-comment-meta">
+        <a href="#link-to-user" class="am-comment-author">{{:commitName}}</a>
+        评论于 <time datetime="2013-07-27T04:54:29-07:00" title="2013年7月27日 下午7:54 格林尼治标准时间+0800">{{:timeStamp}}</time>
+      </div>
+    </header>
+
+    <div class="am-comment-bd">
+     {{:message}}
+    </div>
+	<footer class="am-comment-footer">
+    	<div class="am-comment-actions">
+    		<a href>
+    			<i class="am-icon-thumbs-up"></i>
+    		</a>
+    			<a href>
+    			<i class="am-icon-thumbs-down"></i>
+    		</a>
+    			<a href>
+    			<i class="am-icon-reply"></i>
+    		</a>
+    	</div>
+    </footer>
+  </div>
+</article>
+</script>
+
 <script type="text/javascript">
 $(document).ready(function(){
 	
@@ -104,9 +140,7 @@ $(document).ready(function(){
 			}
 		});
 	});
-
 });
-
 function refreshPage(){
   	 window.location.href="/my-app-simple/friend/enterMsg?id=${admin1.id}";
   	
@@ -122,7 +156,10 @@ function updateMsg(){
 		contentType: "application/json; charset=utf-8",
 		dataType: "json",
 		success:function(data){
-			var htmlOutput = $("#Template").render(data);  
+
+
+			var htmlOutput = $.templates("#theTmpl").render(data);
+
 			$("#MessageList").html(htmlOutput);
 		}
 		
@@ -130,7 +167,6 @@ function updateMsg(){
 	});
 	setTimeout('updateMsg()',4000);
 }
-
 function json2TimeStamp(milliseconds){
     var datetime = new Date();
     datetime.setTime(milliseconds);
@@ -144,39 +180,7 @@ function json2TimeStamp(milliseconds){
     return year + "-" + month + "-" + date+" "+hour+":"+minute+":"+second;
 }
 </script>
-<script id="Template" type="text/x-jsrender">
-  <article class="am-comment">
-  <a href="#link-to-user-home">
-    <img src="" alt="" class="am-comment-avatar" width="48" height="48"/>
-  </a>
 
-  <div class="am-comment-main">
-    <header class="am-comment-hd">
-      <div class="am-comment-meta">
-        <a href="#link-to-user" class="am-comment-author">{{:commitName}}</a>
-        发表于 <time datetime="2013-07-27T04:54:29-07:00" title="2013年7月27日 下午7:54 格林尼治标准时间+0800">{{:timeStamp}}</time>
-      </div>
-    </header>
-
-    <div class="am-comment-bd">
-     {{:message}}
-    </div>
-	<footer class="am-comment-footer">
-    	<div class="am-comment-actions">
-    		<a href>
-    			<i class="am-icon-thumbs-up"></i>
-    		</a>
-    			<a href>
-    			<i class="am-icon-thumbs-down"></i>
-    		</a>
-    			<a href>
-    			<i class="am-icon-reply"></i>
-    		</a>
-    	</div>
-    </footer>
-  </div>
-</article>
-</script>
 <script type="text/javascript"  src="../js/jquery.js"></script>
 <script src="../bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript"  src="../js/jsrender.min.js"></script>

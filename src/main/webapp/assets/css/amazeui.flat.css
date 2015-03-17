@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*! Amaze UI v2.2.1 | by Amaze UI Team | (c) 2015 AllMobilize, Inc. | Licensed under MIT | 2015-01-29T06:01:38 UTC */
+=======
+/*! Amaze UI v2.1.0 | by Amaze UI Team | (c) 2015 AllMobilize, Inc. | Licensed under MIT | 2015-01-13T02:01:01 UTC */
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 /* ==========================================================================
    Component: Base
  ============================================================================ */
@@ -4473,8 +4477,13 @@ a.am-close:hover {
 ============================================================================= */
 @font-face {
   font-family: 'FontAwesome';
+<<<<<<< HEAD
   src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+=======
+  src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   font-weight: normal;
   font-style: normal;
 }
@@ -4490,12 +4499,17 @@ a.am-close:hover {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 .am-icon-border {
   padding: .2em .25em .15em;
@@ -5037,7 +5051,10 @@ a.am-close:hover {
 .am-icon-twitter:before {
   content: "\f099";
 }
+<<<<<<< HEAD
 .am-icon-facebook-f:before,
+=======
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 .am-icon-facebook:before {
   content: "\f09a";
 }
@@ -5687,8 +5704,12 @@ a.am-close:hover {
 .am-icon-male:before {
   content: "\f183";
 }
+<<<<<<< HEAD
 .am-icon-gittip:before,
 .am-icon-gratipay:before {
+=======
+.am-icon-gittip:before {
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f184";
 }
 .am-icon-sun-o:before {
@@ -5955,7 +5976,10 @@ a.am-close:hover {
 .am-icon-history:before {
   content: "\f1da";
 }
+<<<<<<< HEAD
 .am-icon-genderless:before,
+=======
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 .am-icon-circle-thin:before {
   content: "\f1db";
 }
@@ -6100,6 +6124,7 @@ a.am-close:hover {
 .am-icon-meanpath:before {
   content: "\f20c";
 }
+<<<<<<< HEAD
 .am-icon-buysellads:before {
   content: "\f20d";
 }
@@ -6221,6 +6246,8 @@ a.am-close:hover {
 .am-icon-medium:before {
   content: "\f23a";
 }
+=======
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 /* Modifier: `am-icon-spin`
 ============================================================================= */
 @-webkit-keyframes icon-spin {
@@ -7249,6 +7276,7 @@ a.am-close:hover {
   .am-hide-lg-down {
     display: none !important;
   }
+<<<<<<< HEAD
   /* table */
   table.am-show-sm-only,
   table.am-show-sm-up,
@@ -7332,6 +7360,8 @@ a.am-close:hover {
   td.am-show-lg-down {
     display: table-cell !important;
   }
+=======
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 /* medium displays */
 @media only screen and (min-width:641px) {
@@ -7363,6 +7393,7 @@ a.am-close:hover {
   .am-hide-lg-down {
     display: none !important;
   }
+<<<<<<< HEAD
   table.am-hide-sm-only,
   table.am-show-sm-up,
   table.am-hide-sm,
@@ -7445,6 +7476,8 @@ a.am-close:hover {
   td.am-show-lg-down {
     display: table-cell !important;
   }
+=======
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 /* large displays */
 @media only screen and (min-width:1025px) {
@@ -7476,6 +7509,7 @@ a.am-close:hover {
   .am-hide-lg-down {
     display: none !important;
   }
+<<<<<<< HEAD
   table.am-hide-sm-only,
   table.am-show-sm-up,
   table.am-hide-sm,
@@ -7558,6 +7592,8 @@ a.am-close:hover {
   td.am-show-lg-down {
     display: table-cell !important;
   }
+=======
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 @media only screen and (orientation: landscape) {
   .am-show-landscape,
@@ -8210,12 +8246,17 @@ ul.am-dropdown-content > .am-disabled > a:focus {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f137";
   font-size: 24px;
 }
@@ -8266,12 +8307,17 @@ ul.am-dropdown-content > .am-disabled > a:focus {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   font-size: 20px;
   display: inline-block;
   content: "\f04c";
@@ -9215,12 +9261,17 @@ ul.am-dropdown-content > .am-disabled > a:focus {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f110";
   -webkit-animation: icon-spin 2s infinite linear;
           animation: icon-spin 2s infinite linear;
@@ -9672,12 +9723,17 @@ label.am-radio {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 .am-checkbox .am-icon-checked,
 .am-radio .am-icon-checked {
@@ -10116,12 +10172,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
 }
 .am-datepicker-next-icon:before {
@@ -10131,12 +10192,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f054";
 }
 .am-datepicker-dropdown {
@@ -10446,12 +10512,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   -webkit-transition: -webkit-transform .2s ease;
           transition: transform .2s ease;
   -webkit-transform: rotate(0deg);
@@ -10494,12 +10565,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f0da";
   -webkit-transition: -webkit-transform .2s ease;
           transition: transform .2s ease;
@@ -10549,12 +10625,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f105";
   -webkit-transition: -webkit-transform .2s linear;
           transition: transform .2s linear;
@@ -10604,12 +10685,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f105";
   -webkit-transition: -webkit-transform .2s linear;
           transition: transform .2s linear;
@@ -10665,12 +10751,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f00e";
   position: absolute;
   top: 1rem;
@@ -11770,12 +11861,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 .am-menu-sub {
   z-index: 1050;
@@ -12140,12 +12236,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f0d8";
   font-size: 24px;
   color: #f5f5f5;
@@ -13239,12 +13340,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 24px;
 }
@@ -13329,12 +13435,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 16px;
   line-height: 24px;
@@ -13412,12 +13523,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 24px;
 }
@@ -13498,12 +13614,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 20px;
   line-height: 24px;
@@ -13744,12 +13865,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 16px;
   line-height: 24px;
@@ -13845,12 +13971,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 24px;
 }
@@ -13950,12 +14081,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 16px;
   line-height: 24px;
@@ -14241,12 +14377,17 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
+<<<<<<< HEAD
   font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform: translate(0, 0);
       -ms-transform: translate(0, 0);
           transform: translate(0, 0);
+=======
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
   color: rgba(0, 0, 0, 0.7);
   content: "\f053";
   font-size: 24px;
@@ -14613,7 +14754,10 @@ tbody.am-collapse.am-in {
 .am-titlebar-one .am-titlebar-nav a {
   color: #999999;
 }
+<<<<<<< HEAD
 .am-wechatpay .am-wechatpay-btn {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+=======
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614

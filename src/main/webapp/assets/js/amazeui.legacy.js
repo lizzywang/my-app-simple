@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*! Amaze UI v2.2.1 ~ Old IE Fucker | by Amaze UI Team | (c) 2015 AllMobilize, Inc. | Licensed under MIT | 2015-01-29T06:01:38 UTC */
+=======
+/*! Amaze UI v2.1.0 ~ Old IE Fucker | by Amaze UI Team | (c) 2015 AllMobilize, Inc. | Licensed under MIT | 2015-01-13T02:01:01 UTC */
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 (function e(t, n, r) {
   function s(o, u) {
     if (!n[o]) {
@@ -637,15 +641,22 @@
         // Alert Class
         // NOTE: removeElement option is unavailable now
         var Alert = function(element, options) {
+<<<<<<< HEAD
           var _this = this;
+=======
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
           this.options = $.extend({}, Alert.DEFAULTS, options);
           this.$element = $(element);
 
           this.$element.
           addClass('am-fade am-in').
+<<<<<<< HEAD
           on('click.alert.amui', '.am-close', function() {
             _this.close.call(this);
           });
+=======
+          on('click.alert.amui', '.am-close', $.proxy(this.close, this));
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
         };
 
         Alert.DEFAULTS = {
@@ -3293,8 +3304,12 @@
           var $element = this.$element;
           var $bar = $element.find('.am-offcanvas-bar').first();
 
+<<<<<<< HEAD
           if (!$element.length || !this.active || !$element.hasClass(
             'am-active')) {
+=======
+          if (!$element.length || !$element.hasClass('am-active')) {
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
             return;
           }
 
@@ -3364,8 +3379,12 @@
             if (!data) {
               $this.data('amui.offcanvas', (data = new OffCanvas(this,
                 options)));
+<<<<<<< HEAD
               (!option || typeof option == 'object') && data.open(
                 relatedElement);
+=======
+              data.open(relatedElement);
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
             }
 
             if (typeof option == 'string') {
@@ -4149,8 +4168,12 @@
             active: 'am-active'
           },
           closest: false,
+<<<<<<< HEAD
           smooth: true,
           offsetTop: 0
+=======
+          smooth: true
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
         };
 
         ScrollSpyNav.prototype.process = function() {
@@ -4198,10 +4221,16 @@
 
         ScrollSpyNav.prototype.scrollProcess = function() {
           var $links = this.$links;
+<<<<<<< HEAD
           var options = this.options;
 
           // smoothScroll
           if (options.smooth) {
+=======
+
+          // smoothScroll
+          if (this.options.smooth) {
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
             $links.on('click', function(e) {
               e.preventDefault();
 
@@ -4212,12 +4241,17 @@
                 return;
               }
 
+<<<<<<< HEAD
               var offsetTop = options.offsetTop &&
                 !isNaN(parseInt(options.offsetTop)) && parseInt(options.offsetTop) ||
                 0;
 
               $(window).smoothScroll({
                 position: $target.offset().top - offsetTop
+=======
+              $(window).smoothScroll({
+                position: $target.offset().top
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
               });
             });
           }
@@ -4247,7 +4281,12 @@
         UI.ready(function(context) {
           $('[data-am-scrollspy-nav]', context).each(function() {
             var $this = $(this);
+<<<<<<< HEAD
             var options = UI.utils.options($this.data('amScrollspyNav'));
+=======
+            var options = UI.utils.options($this.attr(
+              'data-am-scrollspy-nav'));
+>>>>>>> 8b47356f44d0ae5f868953711591861476587614
 
             Plugin.call($this, options);
           });
