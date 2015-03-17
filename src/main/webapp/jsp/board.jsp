@@ -7,7 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>留言板</title>
 <script type="text/javascript"  src="../js/jquery.js"></script>
+<script type="text/javascript"  src="../js/jsrender.min.js"></script>
 <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css"></link>
+<link rel="stylesheet" href="../assets/css/amazeui.min.css" type="text/css"></link>
+
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -53,20 +56,26 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-<div class="panel panel-primary col-sm-5 col-sm-offset-3">
+<div class="body">
+<div class="panel panel-primary">
   <div class="panel-heading">${admin1.name }的留言板</div>
   <div class="panel-body">
-   	<textarea rows="7" cols="50" id ="message"></textarea>
+   	<textarea rows="7" cols="150" id ="message"></textarea>
   </div>
   <div class="panel-footer">
-  <button id="leaveMessage">留言</button>
+  <button id="leaveMessage" class = "btn btn-default btn-lg">留言</button>
   </div>
 </div>
+<br/>
+<br/>
 <div id="MessageList">
+</div>
 </div>
 <script type="text/javascript">
 $(document).ready(function(){
+	
 	updateMsg();
+	
 	$('#leaveMessage').on('click',function(){
 		console.log('hi');
 		var commitName = '${admin.name}';
@@ -113,14 +122,8 @@ function updateMsg(){
 		contentType: "application/json; charset=utf-8",
 		dataType: "json",
 		success:function(data){
-			$.each(data,function(index,note){
-				var commitname = note.commitName;
-				var message = note.message;
-				var timestamp = json2TimeStamp(note.timeStamp);
-				html+='<div class="comment"><h6>'+commitname+':</h6><p class="para">'+message+'</p><p>'+timestamp+'</p></div>';
-				
-			});
-			$("#MessageList").html(html);
+			var htmlOutput = $("#Template").render(data);  
+			$("#MessageList").html(htmlOutput);
 		}
 		
 		
@@ -141,7 +144,41 @@ function json2TimeStamp(milliseconds){
     return year + "-" + month + "-" + date+" "+hour+":"+minute+":"+second;
 }
 </script>
+<script id="Template" type="text/x-jsrender">
+  <article class="am-comment">
+  <a href="#link-to-user-home">
+    <img src="" alt="" class="am-comment-avatar" width="48" height="48"/>
+  </a>
+
+  <div class="am-comment-main">
+    <header class="am-comment-hd">
+      <div class="am-comment-meta">
+        <a href="#link-to-user" class="am-comment-author">{{:commitName}}</a>
+        发表于 <time datetime="2013-07-27T04:54:29-07:00" title="2013年7月27日 下午7:54 格林尼治标准时间+0800">{{:timeStamp}}</time>
+      </div>
+    </header>
+
+    <div class="am-comment-bd">
+     {{:message}}
+    </div>
+	<footer class="am-comment-footer">
+    	<div class="am-comment-actions">
+    		<a href>
+    			<i class="am-icon-thumbs-up"></i>
+    		</a>
+    			<a href>
+    			<i class="am-icon-thumbs-down"></i>
+    		</a>
+    			<a href>
+    			<i class="am-icon-reply"></i>
+    		</a>
+    	</div>
+    </footer>
+  </div>
+</article>
+</script>
 <script type="text/javascript"  src="../js/jquery.js"></script>
 <script src="../bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript"  src="../js/jsrender.min.js"></script>
 </body>
 </html>
