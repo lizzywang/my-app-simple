@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-/*! Amaze UI v2.2.1 ~ Old IE Fucker | by Amaze UI Team | (c) 2015 AllMobilize, Inc. | Licensed under MIT | 2015-01-29T06:01:38 UTC */
-=======
+
 /*! Amaze UI v2.1.0 ~ Old IE Fucker | by Amaze UI Team | (c) 2015 AllMobilize, Inc. | Licensed under MIT | 2015-01-13T02:01:01 UTC */
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
+
 (function e(t, n, r) {
   function s(o, u) {
     if (!n[o]) {

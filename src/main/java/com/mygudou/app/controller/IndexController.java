@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 
 
 
+
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,6 +24,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 
+
+
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.mygudou.app.daoimpl.AdminDaoimpl;
 import com.mygudou.app.model.Admin;
@@ -75,14 +80,20 @@ public class IndexController {
     	return "simplesignup";
     }
     
-	
-    @RequestMapping(value="/sign")
-    public void signup(String name,String pass,HttpServletResponse response){
-    	
+    @ResponseBody
+    @RequestMapping(value="/sign",method = RequestMethod.POST)
+    public void signup(@RequestBody String json,HttpServletRequest request,HttpServletResponse response){
+
+    	System.out.println(json);
+    	JSONObject jsonString = JSON.parseObject(json);
+    	String name = jsonString.getString("name");
+    	String pass = jsonString.getString("pass");
     	int affectRows = AdminDao.insert(name, pass);
 		JSONObject bjson = new JSONObject();
 		bjson.put("check", affectRows);
 		String bString = bjson.toString();
+		
+		System.out.println(bString);
 		PrintWriter out = null;
 		response.setContentType("application/json");
 	    response.setCharacterEncoding("UTF-8");

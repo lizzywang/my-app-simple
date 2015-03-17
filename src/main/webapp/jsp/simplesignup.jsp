@@ -35,13 +35,19 @@
 <script type="text/javascript">
 $(function(){
 	$('#signup').on('click',function(){
+		var name = $('#inputname').val();
+		var pass = $('#inputPassword3').val();
 		$.ajax({
 			url:"/my-app-simple/simple/sign",
-			data:$('#myform').serialize(),
+			contentType: "application/json; charset=utf-8",
+			dataType: "json",
 			type:"post",
+			data:JSON.stringify({"name":name,"pass":pass}),
+			
 			success:function(data){
 				if(data.check == 1){
-					console.log(data.check);
+					alert("ok");	
+					
 				}
 			}
 		});

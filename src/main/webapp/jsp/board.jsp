@@ -98,7 +98,7 @@
     			<a href>
     			<i class="am-icon-thumbs-down"></i>
     		</a>
-    			<a href>
+    			<a href ="/my-app-simple/friend/enterMsg?id={{:from}}">
     			<i class="am-icon-reply"></i>
     		</a>
     	</div>
@@ -156,8 +156,7 @@ function updateMsg(){
 		contentType: "application/json; charset=utf-8",
 		dataType: "json",
 		success:function(data){
-
-
+		    
 			var htmlOutput = $.templates("#theTmpl").render(data);
 
 			$("#MessageList").html(htmlOutput);

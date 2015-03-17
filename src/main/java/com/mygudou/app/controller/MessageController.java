@@ -35,9 +35,8 @@ public class MessageController {
 	@ResponseBody
 	@RequestMapping(value = "/add",method =RequestMethod.POST)
 	public void addMessage(@RequestBody String json,HttpServletRequest request,HttpServletResponse response){
-		System.out.println(json);
+		//System.out.println(json);
 		JSONObject jsonString = JSON.parseObject(json);
-		System.out.println("1");
 		int from_id = jsonString.getIntValue("from");
 		int to_id = jsonString.getIntValue("to");
 		String message = jsonString.getString("message");
@@ -74,8 +73,5 @@ public class MessageController {
 		
 	}
 	
-	@RequestMapping(value="/test")
-	public String getBeautifullines(){
-	    return "/test";
-	}
+	
 }
