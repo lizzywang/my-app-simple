@@ -73,4 +73,9 @@ public class MessageController {
         }
 		
 	}
+	
+	@RequestMapping(value="/test")
+	public String getBeautifullines(){
+	    return "/test";
+	}
 }
