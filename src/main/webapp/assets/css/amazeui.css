@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/*! Amaze UI v2.2.1 | by Amaze UI Team | (c) 2015 AllMobilize, Inc. | Licensed under MIT | 2015-01-29T06:01:38 UTC */
-=======
 /*! Amaze UI v2.1.0 | by Amaze UI Team | (c) 2015 AllMobilize, Inc. | Licensed under MIT | 2015-01-13T02:01:01 UTC */
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 /* ==========================================================================
    Component: Base
  ============================================================================ */
@@ -4455,13 +4451,8 @@ a.am-close:hover {
 ============================================================================= */
 @font-face {
   font-family: 'FontAwesome';
-<<<<<<< HEAD
-  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
-  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
-=======
   src: url('../fonts/fontawesome-webfont.eot?v=4.2.0');
   src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff?v=4.2.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.2.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular') format('svg');
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   font-weight: normal;
   font-style: normal;
 }
@@ -4477,17 +4468,8 @@ a.am-close:hover {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 .am-icon-border {
   padding: .2em .25em .15em;
@@ -5029,10 +5011,6 @@ a.am-close:hover {
 .am-icon-twitter:before {
   content: "\f099";
 }
-<<<<<<< HEAD
-.am-icon-facebook-f:before,
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 .am-icon-facebook:before {
   content: "\f09a";
 }
@@ -5682,12 +5660,7 @@ a.am-close:hover {
 .am-icon-male:before {
   content: "\f183";
 }
-<<<<<<< HEAD
-.am-icon-gittip:before,
-.am-icon-gratipay:before {
-=======
 .am-icon-gittip:before {
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f184";
 }
 .am-icon-sun-o:before {
@@ -5954,10 +5927,6 @@ a.am-close:hover {
 .am-icon-history:before {
   content: "\f1da";
 }
-<<<<<<< HEAD
-.am-icon-genderless:before,
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 .am-icon-circle-thin:before {
   content: "\f1db";
 }
@@ -6102,130 +6071,6 @@ a.am-close:hover {
 .am-icon-meanpath:before {
   content: "\f20c";
 }
-<<<<<<< HEAD
-.am-icon-buysellads:before {
-  content: "\f20d";
-}
-.am-icon-connectdevelop:before {
-  content: "\f20e";
-}
-.am-icon-dashcube:before {
-  content: "\f210";
-}
-.am-icon-forumbee:before {
-  content: "\f211";
-}
-.am-icon-leanpub:before {
-  content: "\f212";
-}
-.am-icon-sellsy:before {
-  content: "\f213";
-}
-.am-icon-shirtsinbulk:before {
-  content: "\f214";
-}
-.am-icon-simplybuilt:before {
-  content: "\f215";
-}
-.am-icon-skyatlas:before {
-  content: "\f216";
-}
-.am-icon-cart-plus:before {
-  content: "\f217";
-}
-.am-icon-cart-arrow-down:before {
-  content: "\f218";
-}
-.am-icon-diamond:before {
-  content: "\f219";
-}
-.am-icon-ship:before {
-  content: "\f21a";
-}
-.am-icon-user-secret:before {
-  content: "\f21b";
-}
-.am-icon-motorcycle:before {
-  content: "\f21c";
-}
-.am-icon-street-view:before {
-  content: "\f21d";
-}
-.am-icon-heartbeat:before {
-  content: "\f21e";
-}
-.am-icon-venus:before {
-  content: "\f221";
-}
-.am-icon-mars:before {
-  content: "\f222";
-}
-.am-icon-mercury:before {
-  content: "\f223";
-}
-.am-icon-transgender:before {
-  content: "\f224";
-}
-.am-icon-transgender-alt:before {
-  content: "\f225";
-}
-.am-icon-venus-double:before {
-  content: "\f226";
-}
-.am-icon-mars-double:before {
-  content: "\f227";
-}
-.am-icon-venus-mars:before {
-  content: "\f228";
-}
-.am-icon-mars-stroke:before {
-  content: "\f229";
-}
-.am-icon-mars-stroke-v:before {
-  content: "\f22a";
-}
-.am-icon-mars-stroke-h:before {
-  content: "\f22b";
-}
-.am-icon-neuter:before {
-  content: "\f22c";
-}
-.am-icon-facebook-official:before {
-  content: "\f230";
-}
-.am-icon-pinterest-p:before {
-  content: "\f231";
-}
-.am-icon-whatsapp:before {
-  content: "\f232";
-}
-.am-icon-server:before {
-  content: "\f233";
-}
-.am-icon-user-plus:before {
-  content: "\f234";
-}
-.am-icon-user-times:before {
-  content: "\f235";
-}
-.am-icon-hotel:before,
-.am-icon-bed:before {
-  content: "\f236";
-}
-.am-icon-viacoin:before {
-  content: "\f237";
-}
-.am-icon-train:before {
-  content: "\f238";
-}
-.am-icon-subway:before {
-  content: "\f239";
-}
-.am-icon-medium:before {
-  content: "\f23a";
-}
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 /* Modifier: `am-icon-spin`
 ============================================================================= */
 @-webkit-keyframes icon-spin {
@@ -7254,92 +7099,6 @@ a.am-close:hover {
   .am-hide-lg-down {
     display: none !important;
   }
-<<<<<<< HEAD
-  /* table */
-  table.am-show-sm-only,
-  table.am-show-sm-up,
-  table.am-show-sm,
-  table.am-show-sm-down,
-  table.am-hide-md-only,
-  table.am-hide-md-up,
-  table.am-hide-md,
-  table.am-show-md-down,
-  table.am-hide-lg-only,
-  table.am-hide-lg-up,
-  table.am-hide-lg,
-  table.am-show-lg-down {
-    display: table !important;
-  }
-  thead.am-show-sm-only,
-  thead.am-show-sm-up,
-  thead.am-show-sm,
-  thead.am-show-sm-down,
-  thead.am-hide-md-only,
-  thead.am-hide-md-up,
-  thead.am-hide-md,
-  thead.am-show-md-down,
-  thead.am-hide-lg-only,
-  thead.am-hide-lg-up,
-  thead.am-hide-lg,
-  thead.am-show-lg-down {
-    display: table-header-group !important;
-  }
-  tbody.am-show-sm-only,
-  tbody.am-show-sm-up,
-  tbody.am-show-sm,
-  tbody.am-show-sm-down,
-  tbody.am-hide-md-only,
-  tbody.am-hide-md-up,
-  tbody.am-hide-md,
-  tbody.am-show-md-down,
-  tbody.am-hide-lg-only,
-  tbody.am-hide-lg-up,
-  tbody.am-hide-lg,
-  tbody.am-show-lg-down {
-    display: table-row-group !important;
-  }
-  tr.am-show-sm-only,
-  tr.am-show-sm-up,
-  tr.am-show-sm,
-  tr.am-show-sm-down,
-  tr.am-hide-md-only,
-  tr.am-hide-md-up,
-  tr.am-hide-md,
-  tr.am-show-md-down,
-  tr.am-hide-lg-only,
-  tr.am-hide-lg-up,
-  tr.am-hide-lg,
-  tr.am-show-lg-down {
-    display: table-row !important;
-  }
-  th.am-show-sm-only,
-  td.am-show-sm-only,
-  th.am-show-sm-up,
-  td.am-show-sm-up,
-  th.am-show-sm,
-  td.am-show-sm,
-  th.am-show-sm-down,
-  td.am-show-sm-down,
-  th.am-hide-md-only,
-  td.am-hide-md-only,
-  th.am-hide-md-up,
-  td.am-hide-md-up,
-  th.am-hide-md,
-  td.am-hide-md,
-  th.am-show-md-down,
-  td.am-show-md-down,
-  th.am-hide-lg-only,
-  td.am-hide-lg-only,
-  th.am-hide-lg-up,
-  td.am-hide-lg-up,
-  th.am-hide-lg,
-  td.am-hide-lg,
-  th.am-show-lg-down,
-  td.am-show-lg-down {
-    display: table-cell !important;
-  }
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 /* medium displays */
 @media only screen and (min-width:641px) {
@@ -7371,91 +7130,6 @@ a.am-close:hover {
   .am-hide-lg-down {
     display: none !important;
   }
-<<<<<<< HEAD
-  table.am-hide-sm-only,
-  table.am-show-sm-up,
-  table.am-hide-sm,
-  table.am-hide-sm-down,
-  table.am-show-md-only,
-  table.am-show-md-up,
-  table.am-show-md,
-  table.am-show-md-down,
-  table.am-hide-lg-only,
-  table.am-hide-lg-up,
-  table.am-hide-lg,
-  table.am-show-lg-down {
-    display: table !important;
-  }
-  thead.am-hide-sm-only,
-  thead.am-show-sm-up,
-  thead.am-hide-sm,
-  thead.am-hide-sm-down,
-  thead.am-show-md-only,
-  thead.am-show-md-up,
-  thead.am-show-md,
-  thead.am-show-md-down,
-  thead.am-hide-lg-only,
-  thead.am-hide-lg-up,
-  thead.am-hide-lg,
-  thead.am-show-lg-down {
-    display: table-header-group !important;
-  }
-  tbody.am-hide-sm-only,
-  tbody.am-show-sm-up,
-  tbody.am-hide-sm,
-  tbody.am-hide-sm-down,
-  tbody.am-show-md-only,
-  tbody.am-show-md-up,
-  tbody.am-show-md,
-  tbody.am-show-md-down,
-  tbody.am-hide-lg-only,
-  tbody.am-hide-lg-up,
-  tbody.am-hide-lg,
-  tbody.am-show-lg-down {
-    display: table-row-group !important;
-  }
-  tr.am-hide-sm-only,
-  tr.am-show-sm-up,
-  tr.am-hide-sm,
-  tr.am-hide-sm-down,
-  tr.am-show-md-only,
-  tr.am-show-md-up,
-  tr.am-show-md,
-  tr.am-show-md-down,
-  tr.am-hide-lg-only,
-  tr.am-hide-lg-up,
-  tr.am-hide-lg,
-  tr.am-show-lg-down {
-    display: table-row !important;
-  }
-  th.am-hide-sm-only,
-  td.am-hide-sm-only,
-  th.am-show-sm-up,
-  td.am-show-sm-up,
-  th.am-hide-sm,
-  td.am-hide-sm,
-  th.am-hide-sm-down,
-  td.am-hide-sm-down,
-  th.am-show-md-only,
-  td.am-show-md-only,
-  th.am-show-md-up,
-  td.am-show-md-up,
-  th.am-show-md,
-  td.am-show-md,
-  th.am-show-md-down,
-  td.am-show-md-down,
-  th.am-hide-lg-only,
-  td.am-hide-lg-only,
-  th.am-hide-lg-up,
-  td.am-hide-lg-up,
-  th.am-hide-lg,
-  td.am-hide-lg,
-  th.am-show-lg-down,
-  td.am-show-lg-down {
-    display: table-cell !important;
-  }
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 /* large displays */
 @media only screen and (min-width:1025px) {
@@ -7487,91 +7161,6 @@ a.am-close:hover {
   .am-hide-lg-down {
     display: none !important;
   }
-<<<<<<< HEAD
-  table.am-hide-sm-only,
-  table.am-show-sm-up,
-  table.am-hide-sm,
-  table.am-hide-sm-down,
-  table.am-hide-md-only,
-  table.am-show-md-up,
-  table.am-hide-md,
-  table.am-hide-md-down,
-  table.am-show-lg-only,
-  table.am-show-lg-up,
-  table.am-show-lg,
-  table.am-show-lg-down {
-    display: table !important;
-  }
-  thead.am-hide-sm-only,
-  thead.am-show-sm-up,
-  thead.am-hide-sm,
-  thead.am-hide-sm-down,
-  thead.am-hide-md-only,
-  thead.am-show-md-up,
-  thead.am-hide-md,
-  thead.am-hide-md-down,
-  thead.am-show-lg-only,
-  thead.am-show-lg-up,
-  thead.am-show-lg,
-  thead.am-show-lg-down {
-    display: table-header-group !important;
-  }
-  tbody.am-hide-sm-only,
-  tbody.am-show-sm-up,
-  tbody.am-hide-sm,
-  tbody.am-hide-sm-down,
-  tbody.am-hide-md-only,
-  tbody.am-show-md-up,
-  tbody.am-hide-md,
-  tbody.am-hide-md-down,
-  tbody.am-show-lg-only,
-  tbody.am-show-lg-up,
-  tbody.am-show-lg,
-  tbody.am-show-lg-down {
-    display: table-row-group !important;
-  }
-  tr.am-hide-sm-only,
-  tr.am-show-sm-up,
-  tr.am-hide-sm,
-  tr.am-hide-sm-down,
-  tr.am-hide-md-only,
-  tr.am-show-md-up,
-  tr.am-hide-md,
-  tr.am-hide-md-down,
-  tr.am-show-lg-only,
-  tr.am-show-lg-up,
-  tr.am-show-lg,
-  tr.am-show-lg-down {
-    display: table-row !important;
-  }
-  th.am-hide-sm-only,
-  td.am-hide-sm-only,
-  th.am-show-sm-up,
-  td.am-show-sm-up,
-  th.am-hide-sm,
-  td.am-hide-sm,
-  th.am-hide-sm-down,
-  td.am-hide-sm-down,
-  th.am-hide-md-only,
-  td.am-hide-md-only,
-  th.am-show-md-up,
-  td.am-show-md-up,
-  th.am-hide-md,
-  td.am-hide-md,
-  th.am-hide-md-down,
-  td.am-hide-md-down,
-  th.am-show-lg-only,
-  td.am-show-lg-only,
-  th.am-show-lg-up,
-  td.am-show-lg-up,
-  th.am-show-lg,
-  td.am-show-lg,
-  th.am-show-lg-down,
-  td.am-show-lg-down {
-    display: table-cell !important;
-  }
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 @media only screen and (orientation: landscape) {
   .am-show-landscape,
@@ -8224,17 +7813,8 @@ ul.am-dropdown-content > .am-disabled > a:focus {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f137";
   font-size: 24px;
 }
@@ -8285,17 +7865,8 @@ ul.am-dropdown-content > .am-disabled > a:focus {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   font-size: 20px;
   display: inline-block;
   content: "\f04c";
@@ -9239,17 +8810,8 @@ ul.am-dropdown-content > .am-disabled > a:focus {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f110";
   -webkit-animation: icon-spin 2s infinite linear;
           animation: icon-spin 2s infinite linear;
@@ -9701,17 +9263,8 @@ label.am-radio {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 .am-checkbox .am-icon-checked,
 .am-radio .am-icon-checked {
@@ -10150,17 +9703,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
 }
 .am-datepicker-next-icon:before {
@@ -10170,17 +9714,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f054";
 }
 .am-datepicker-dropdown {
@@ -10490,17 +10025,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   -webkit-transition: -webkit-transform .2s ease;
           transition: transform .2s ease;
   -webkit-transform: rotate(0deg);
@@ -10543,17 +10069,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f0da";
   -webkit-transition: -webkit-transform .2s ease;
           transition: transform .2s ease;
@@ -10603,17 +10120,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f105";
   -webkit-transition: -webkit-transform .2s linear;
           transition: transform .2s linear;
@@ -10663,17 +10171,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f105";
   -webkit-transition: -webkit-transform .2s linear;
           transition: transform .2s linear;
@@ -10729,17 +10228,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f00e";
   position: absolute;
   top: 1rem;
@@ -11839,17 +11329,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 }
 .am-menu-sub {
   z-index: 1050;
@@ -12214,17 +11695,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f0d8";
   font-size: 24px;
   color: #f5f5f5;
@@ -13318,17 +12790,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 24px;
 }
@@ -13413,17 +12876,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 16px;
   line-height: 24px;
@@ -13501,17 +12955,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 24px;
 }
@@ -13592,17 +13037,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 20px;
   line-height: 24px;
@@ -13843,17 +13279,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 16px;
   line-height: 24px;
@@ -13949,17 +13376,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 24px;
 }
@@ -14059,17 +13477,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   content: "\f053";
   font-size: 16px;
   line-height: 24px;
@@ -14355,17 +13764,8 @@ tbody.am-collapse.am-in {
   font-style: normal;
   vertical-align: baseline;
   line-height: 1;
-<<<<<<< HEAD
-  font-size: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-=======
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   color: rgba(0, 0, 0, 0.7);
   content: "\f053";
   font-size: 24px;
@@ -14732,10 +14132,3 @@ tbody.am-collapse.am-in {
 .am-titlebar-one .am-titlebar-nav a {
   color: #999999;
 }
-<<<<<<< HEAD
-.am-wechatpay .am-wechatpay-btn {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614

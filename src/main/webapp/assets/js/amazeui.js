@@ -1,6 +1,4 @@
-
 /*! Amaze UI v2.1.0 | by Amaze UI Team | (c) 2015 AllMobilize, Inc. | Licensed under MIT | 2015-01-13T02:01:01 UTC */
-
 (function e(t, n, r) {
   function s(o, u) {
     if (!n[o]) {
@@ -76,11 +74,7 @@
         });
 
         module.exports = $.AMUI.accordion = {
-<<<<<<< HEAD
-          VERSION: '2.0.1',
-=======
           VERSION: '2.0.0',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: accordionInit
         };
 
@@ -130,10 +124,6 @@
         require('./ui.validator');
         require('./util.cookie');
         require('./util.fullscreen');
-<<<<<<< HEAD
-        require('./util.geolocation');
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
         require('./util.qrcode');
         require('./util.store');
         require('./accordion');
@@ -155,10 +145,6 @@
         require('./slider');
         require('./tabs');
         require('./titlebar');
-<<<<<<< HEAD
-        require('./wechatpay');
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 
         module.exports = $.AMUI;
 
@@ -214,17 +200,9 @@
       "./util.cookie": 47,
       "./util.fastclick": 48,
       "./util.fullscreen": 49,
-<<<<<<< HEAD
-      "./util.geolocation": 50,
-      "./util.hammer": 51,
-      "./util.qrcode": 52,
-      "./util.store": 53,
-      "./wechatpay": 54
-=======
       "./util.hammer": 50,
       "./util.qrcode": 51,
       "./util.store": 52
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
     }
   ],
   3: [
@@ -828,11 +806,7 @@
       'use strict';
 
       module.exports = {
-<<<<<<< HEAD
-        VERSION: '2.0.1'
-=======
         VERSION: '2.0.0'
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
       };
 
     }, {}
@@ -880,11 +854,7 @@
         $(window).on('load', duoshuoInit);
 
         module.exports = $.AMUI.duoshuo = {
-<<<<<<< HEAD
-          VERSION: '2.0.1',
-=======
           VERSION: '2.0.0',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: duoshuoInit
         };
 
@@ -943,11 +913,7 @@
         });
 
         module.exports = $.AMUI.figure = {
-<<<<<<< HEAD
-          VERSION: '2.0.2',
-=======
           VERSION: '2.0.1',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: figureInit
         };
 
@@ -998,11 +964,7 @@
         });
 
         module.exports = $.AMUI.footer = {
-<<<<<<< HEAD
-          VERSION: '3.1.2',
-=======
           VERSION: '3.1.1',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: footerInit
         };
 
@@ -1071,11 +1033,7 @@
         });
 
         module.exports = $.AMUI.gallery = {
-<<<<<<< HEAD
-          VERSION: '2.0.2',
-=======
           VERSION: '2.0.0',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: galleryInit
         };
 
@@ -1122,11 +1080,7 @@
         });
 
         module.exports = $.AMUI.gotop = {
-<<<<<<< HEAD
-          VERSION: '4.0.2',
-=======
           VERSION: '4.0.1',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: goTopInit
         };
 
@@ -1180,11 +1134,7 @@
         require('./core');
 
         module.exports = $.AMUI.intro = {
-<<<<<<< HEAD
-          VERSION: '4.0.2'
-=======
           VERSION: '4.0.0'
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
         };
 
       }).call(this, typeof global !== "undefined" ? global : typeof self !==
@@ -1238,11 +1188,7 @@
         });
 
         module.exports = $.AMUI.listNews = {
-<<<<<<< HEAD
-          VERSION: '3.0.2',
-=======
           VERSION: '3.0.0',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: listNewsInit
         };
 
@@ -1378,11 +1324,7 @@
         $(document).on('ready', mapInit);
 
         module.exports = $.AMUI.map = {
-<<<<<<< HEAD
-          VERSION: '2.0.2',
-=======
           VERSION: '2.0.1',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: mapInit
         };
 
@@ -1420,11 +1362,7 @@
         $(window).on('load', mechatInit);
 
         module.exports = $.AMUI.mechat = {
-<<<<<<< HEAD
-          VERSION: '2.0.1',
-=======
           VERSION: '2.0.0',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: mechatInit
         };
 
@@ -1595,11 +1533,7 @@
         });
 
         module.exports = $.AMUI.menu = {
-<<<<<<< HEAD
-          VERSION: '4.0.2',
-=======
           VERSION: '4.0.0',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: menuInit
         };
 
@@ -1782,11 +1716,7 @@
         });
 
         module.exports = $.AMUI.navbar = {
-<<<<<<< HEAD
-          VERSION: '2.0.2',
-=======
           VERSION: '2.0.0',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: navbarInit
         };
 
@@ -1796,11 +1726,7 @@
       "./core": 4,
       "./ui.modal": 32,
       "./ui.share": 41,
-<<<<<<< HEAD
-      "./util.qrcode": 52
-=======
       "./util.qrcode": 51
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
     }
   ],
   18: [
@@ -1813,11 +1739,7 @@
         require('./core');
 
         module.exports = $.AMUI.pagination = {
-<<<<<<< HEAD
-          VERSION: '3.0.1'
-=======
           VERSION: '4.0.0'
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
         };
 
       }).call(this, typeof global !== "undefined" ? global : typeof self !==
@@ -1890,11 +1812,7 @@
         });
 
         module.exports = $.AMUI.paragraph = {
-<<<<<<< HEAD
-          VERSION: '2.0.1',
-=======
           VERSION: '2.0.0',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: paragraphInit
         };
 
@@ -1929,11 +1847,7 @@
         $(document).on('ready', sliderInit);
 
         module.exports = $.AMUI.slider = {
-<<<<<<< HEAD
-          VERSION: '3.0.1',
-=======
           VERSION: '3.0.0',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: sliderInit
         };
 
@@ -1968,11 +1882,7 @@
         });
 
         module.exports = $.AMUI.tab = {
-<<<<<<< HEAD
-          VERSION: '4.0.1',
-=======
           VERSION: '4.0.0',
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           init: tabsInit
         };
 
@@ -1993,11 +1903,7 @@
         require('./core');
 
         module.exports = $.AMUI.titlebar = {
-<<<<<<< HEAD
-          VERSION: '4.0.1'
-=======
           VERSION: '4.0.0'
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
         };
 
       }).call(this, typeof global !== "undefined" ? global : typeof self !==
@@ -2660,22 +2566,12 @@
         // Alert Class
         // NOTE: removeElement option is unavailable now
         var Alert = function(element, options) {
-<<<<<<< HEAD
-          var _this = this;
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
           this.options = $.extend({}, Alert.DEFAULTS, options);
           this.$element = $(element);
 
           this.$element.
           addClass('am-fade am-in').
-<<<<<<< HEAD
-          on('click.alert.amui', '.am-close', function() {
-            _this.close.call(this);
-          });
-=======
           on('click.alert.amui', '.am-close', $.proxy(this.close, this));
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
         };
 
         Alert.DEFAULTS = {
@@ -7040,12 +6936,7 @@
           var $element = this.$element;
           var $bar = $element.find('.am-offcanvas-bar').first();
 
-<<<<<<< HEAD
-          if (!$element.length || !this.active || !$element.hasClass(
-            'am-active')) {
-=======
           if (!$element.length || !$element.hasClass('am-active')) {
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
             return;
           }
 
@@ -7115,12 +7006,7 @@
             if (!data) {
               $this.data('amui.offcanvas', (data = new OffCanvas(this,
                 options)));
-<<<<<<< HEAD
-              (!option || typeof option == 'object') && data.open(
-                relatedElement);
-=======
               data.open(relatedElement);
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
             }
 
             if (typeof option == 'string') {
@@ -7154,11 +7040,7 @@
         "undefined" ? self : typeof window !== "undefined" ? window : {})
     }, {
       "./core": 4,
-<<<<<<< HEAD
-      "./util.hammer": 51
-=======
       "./util.hammer": 50
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
     }
   ],
   34: [
@@ -9091,11 +8973,7 @@
     }, {
       "./core": 4,
       "./ui.pinchzoom": 34,
-<<<<<<< HEAD
-      "./util.hammer": 51
-=======
       "./util.hammer": 50
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
     }
   ],
   38: [
@@ -9275,12 +9153,7 @@
             active: 'am-active'
           },
           closest: false,
-<<<<<<< HEAD
-          smooth: true,
-          offsetTop: 0
-=======
           smooth: true
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
         };
 
         ScrollSpyNav.prototype.process = function() {
@@ -9328,16 +9201,9 @@
 
         ScrollSpyNav.prototype.scrollProcess = function() {
           var $links = this.$links;
-<<<<<<< HEAD
-          var options = this.options;
-
-          // smoothScroll
-          if (options.smooth) {
-=======
 
           // smoothScroll
           if (this.options.smooth) {
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
             $links.on('click', function(e) {
               e.preventDefault();
 
@@ -9348,17 +9214,8 @@
                 return;
               }
 
-<<<<<<< HEAD
-              var offsetTop = options.offsetTop &&
-                !isNaN(parseInt(options.offsetTop)) && parseInt(options.offsetTop) ||
-                0;
-
-              $(window).smoothScroll({
-                position: $target.offset().top - offsetTop
-=======
               $(window).smoothScroll({
                 position: $target.offset().top
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
               });
             });
           }
@@ -9388,12 +9245,8 @@
         UI.ready(function(context) {
           $('[data-am-scrollspy-nav]', context).each(function() {
             var $this = $(this);
-<<<<<<< HEAD
-            var options = UI.utils.options($this.data('amScrollspyNav'));
-=======
             var options = UI.utils.options($this.attr(
               'data-am-scrollspy-nav'));
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 
             Plugin.call($this, options);
           });
@@ -10062,15 +9915,9 @@
               '<div class="am-share-wx-qr"></div>' +
               '<div class="am-share-wechat-tip">' +
               '打开微信，点击底部的<em>发现</em>，<br/> ' +
-<<<<<<< HEAD
-              '使用<em>扫一扫</em>将网页分享至朋友圈</div></div></div></div>');
-
-            $qr.attr('id', qrId);
-=======
               '使用<em>扫一扫</em>将网页分享至朋友圈</div></div></div></div>', {
                 id: qrId
               });
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
 
             var qrNode = new QRCode({
               render: 'canvas',
@@ -10109,11 +9956,7 @@
     }, {
       "./core": 4,
       "./ui.modal": 32,
-<<<<<<< HEAD
-      "./util.qrcode": 52
-=======
       "./util.qrcode": 51
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
     }
   ],
   42: [
@@ -10736,11 +10579,7 @@
         "undefined" ? self : typeof window !== "undefined" ? window : {})
     }, {
       "./core": 4,
-<<<<<<< HEAD
-      "./util.hammer": 51
-=======
       "./util.hammer": 50
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
     }
   ],
   45: [
@@ -12385,96 +12224,6 @@
   50: [
     function(require, module, exports) {
       (function(global) {
-<<<<<<< HEAD
-        'use strict';
-
-        var $ = (typeof window !== "undefined" ? window.jQuery : typeof global !==
-          "undefined" ? global.jQuery : null);
-        var UI = require('./core');
-        UI.support.geolocation = window.navigator && window.navigator.geolocation;
-
-        var geo = UI.support.geolocation;
-
-        var Geolocation = function(options) {
-          this.options = options || {};
-        };
-
-        Geolocation.MESSAGES = {
-          unsupportedBrowser: 'Browser does not support location services',
-          permissionDenied: 'You have rejected access to your location',
-          positionUnavailable: 'Unable to determine your location',
-          timeout: 'Service timeout has been reached'
-        };
-
-        Geolocation.ERROR_CODE = {
-          0: 'unsupportedBrowser',
-          1: 'permissionDenied',
-          2: 'positionUnavailable',
-          3: 'timeout'
-        };
-
-        Geolocation.prototype.get = function(options) {
-          var _this = this;
-          options = $.extend({}, this.options, options);
-          var deferred = new $.Deferred();
-
-          if (geo) {
-            this.watchID = geo.getCurrentPosition(function(position) {
-              deferred.resolve.call(_this, position);
-            }, function(error) {
-              deferred.reject(Geolocation.MESSAGES[Geolocation.ERROR_CODE[
-                error.code]]);
-            }, options);
-          } else {
-            deferred.reject(Geolocation.MESSAGES.unsupportedBrowser);
-          }
-
-          return deferred.promise();
-        };
-
-        Geolocation.prototype.watch = function(options) {
-          if (!geo) {
-            return;
-          }
-
-          options = $.extend({}, this.options, options);
-
-          if (!$.isFunction(options.done)) {
-            return;
-          }
-
-          this.clearWatch();
-
-          var fail = $.isFunction(options.fail) ? options.fail : null;
-
-          this.watchID = geo.watchPosition(options.done, fail, options);
-
-          return this.watchID;
-        };
-
-        Geolocation.prototype.clearWatch = function() {
-          if (!geo || !this.watchID) {
-            return;
-          }
-          geo.clearWatch(this.watchID);
-          this.watchID = null;
-        };
-
-        $.AMUI.Geolocation = Geolocation;
-
-        module.exports = Geolocation;
-
-      }).call(this, typeof global !== "undefined" ? global : typeof self !==
-        "undefined" ? self : typeof window !== "undefined" ? window : {})
-    }, {
-      "./core": 4
-    }
-  ],
-  51: [
-    function(require, module, exports) {
-      (function(global) {
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
         /*! Hammer.JS - v2.0.4 - 2014-09-28
          * http://hammerjs.github.io/
          *
@@ -15044,11 +14793,7 @@
       "./core": 4
     }
   ],
-<<<<<<< HEAD
-  52: [
-=======
   51: [
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
     function(require, module, exports) {
       (function(global) {
         var $ = (typeof window !== "undefined" ? window.jQuery : typeof global !==
@@ -17655,11 +17400,7 @@
       "./core": 4
     }
   ],
-<<<<<<< HEAD
-  53: [
-=======
   52: [
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
     function(require, module, exports) {
       (function(global) {
         'use strict';
@@ -17804,82 +17545,5 @@
     }, {
       "./core": 4
     }
-<<<<<<< HEAD
-  ],
-  54: [
-    function(require, module, exports) {
-      (function(global) {
-        'use strict';
-
-        var $ = (typeof window !== "undefined" ? window.jQuery : typeof global !==
-          "undefined" ? global.jQuery : null);
-        var UI = require('./core');
-
-        var isWeChat = window.navigator.userAgent.indexOf('MicroMessenger') >
-          -1;
-
-        function appendWeChatSDK(callback) {
-          var $weChatSDK = $('<script/>', {
-            id: 'wechat-sdk'
-          });
-
-          $('body').append($weChatSDK);
-
-          $weChatSDK.on('load', function() {
-            callback && callback();
-          }).attr('src', 'http://res.wx.qq.com/open/js/jweixin-1.0.0.js');
-        }
-
-        function payHandler() {
-          var $paymentBtn = $('[data-am-widget="wechatpay"]');
-
-          if (!isWeChat) {
-            $paymentBtn.hide();
-            return false;
-          }
-
-          $paymentBtn.on('click', '.am-wechatpay-btn', function(e) {
-            e.preventDefault();
-            var options = UI.utils.parseOptions($(this).parent().data(
-              'wechatPay'));
-            // console.log(options);
-            // alert('pay button clicked');
-            if (!window.wx) {
-              alert('没有微信 JS SDK');
-              return;
-            }
-
-            wx.checkJsApi({
-              jsApiList: ['chooseWXPay'],
-              success: function(res) {
-                if (res.checkResult.chooseWXPay) {
-                  wx.chooseWXPay(options);
-                } else {
-                  alert('微信版本不支持支付接口或没有开启！');
-                }
-              },
-              fail: function() {
-                alert('调用 checkJsApi 接口时发生错误!');
-              }
-            });
-          });
-        }
-
-        var payInit = payHandler;
-
-        $(document).on('ready', payInit);
-
-        module.exports = $.AMUI.pay = {
-          VERSION: '1.0.0',
-          init: payInit
-        };
-
-      }).call(this, typeof global !== "undefined" ? global : typeof self !==
-        "undefined" ? self : typeof window !== "undefined" ? window : {})
-    }, {
-      "./core": 4
-    }
-=======
->>>>>>> 8b47356f44d0ae5f868953711591861476587614
   ]
 }, {}, [2]);
