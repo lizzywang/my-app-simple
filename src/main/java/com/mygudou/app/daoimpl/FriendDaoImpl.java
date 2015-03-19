@@ -59,6 +59,12 @@ public class FriendDaoImpl implements FriendDao{
 		return list;
 	}
 
+	@Override
+	public boolean hasFriends(int id) {
+		
+		return false;
+	}
+
 
 	
 	

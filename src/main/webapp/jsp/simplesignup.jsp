@@ -7,31 +7,40 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Insert title here</title>
 <script type="text/javascript"  src="../js/jquery.js"></script>
-<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css"></link>
+<script type="text/javascript"  src="../js/jquery-impromptu.js"></script>
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" type="text/css"></link> 
+<link rel="stylesheet" href="../css/jquery-impromptu.css" type="text/css"></link> 
 </head>
 <body>
 <center>
-<h1>用户注册</h1>
-
-<form id = "myform">
- <div class="form-group">
-    <label for="inputname" class="col-sm-2 control-label">用户名</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" id="inputname"  name = "name">
-    </div>
+<div class="col-sm-5">
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">用户注册</h3>
+  </div>
+<div class="panel-body">
+	<form id = "myform">
+ 		<div class="form-group">
+    		<label for="inputname" class="col-sm-3 control-label">用户名</label>
+    	<div class="col-sm-9">
+     	 	<input type="text" class="form-control" id="inputname"  name = "name">
+    	</div>
  </div>
 
 <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
-    <div class="col-sm-10">
+    <label for="inputPassword3" class="col-sm-3 control-label">密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+    <div class="col-sm-9">
       <input type="password" class="form-control" id="inputPassword3" name ="pass">
     </div>
 </div>
-<button class="btn btn-default" id = "signup">注册</button>
+
+<input type ="button" class="btn btn-default" id = "signup" value="注册">
 </form>
+</div>
+</div>
+</div>
 </center>
-<script type="text/javascript"  src="../js/jquery.js"></script>
-<script src="../bootstrap/js/bootstrap.min.js"></script>
+
 <script type="text/javascript">
 $(function(){
 	$('#signup').on('click',function(){
@@ -43,10 +52,11 @@ $(function(){
 			dataType: "json",
 			type:"post",
 			data:JSON.stringify({"name":name,"pass":pass}),
-			
 			success:function(data){
 				if(data.check == 1){
-					alert("ok");	
+					alert("注册成功，请登录~");
+					$.prompt("注册成功，请登录~");
+					window.location.href="/my-app-simple/simple/login";	
 					
 				}
 			}
@@ -54,6 +64,9 @@ $(function(){
 	});
 });
 </script>
+<script type="text/javascript"  src="../js/jquery.js"></script>
+<script type="text/javascript"  src="../js/jquery-impromptu.js"></script>
+<script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
 

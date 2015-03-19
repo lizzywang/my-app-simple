@@ -24,7 +24,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">${admin.name }的主页</a>
+      <a class="navbar-brand" href="/my-app-simple/simple/login">${admin.name }的主页</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

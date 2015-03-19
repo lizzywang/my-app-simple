@@ -46,14 +46,17 @@ public class FriendController {
 		}
 	@RequestMapping(value = "/getList")
 	public ModelAndView getFriendsList(HttpServletRequest request,HttpServletResponse response){
-		Admin admin = (Admin) request.getSession().getAttribute("admin");
-		int id = admin.getId();
-		List<Admin> list = FriendService.getFriendsList(id);
 		ModelAndView mv = new ModelAndView();
-		mv.addObject("friendslist", list);
+		Admin admin = (Admin) request.getSession().getAttribute("admin");
+		String friend_ids = admin.getFriendID();
+		if(friend_ids != null){
+			List<Admin> list = FriendDao.getFriendsList(friend_ids);
+			mv.addObject("friendslist", list);
+			mv.setViewName("friends");
+			return mv;
+		}
 		mv.setViewName("friends");
 		return mv;
-			
 	}
 	
 	@RequestMapping(value ="/enterMsg")

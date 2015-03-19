@@ -9,4 +9,5 @@ public interface FriendDao {
 	public void setFriend(int id,String friends_id);
 	public Admin getFriends(int id);
 	public List<Admin> getFriendsList(String friends);
+	public boolean hasFriends(int id);
 }

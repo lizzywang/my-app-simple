@@ -141,9 +141,10 @@ public class AdminService {
                  }
                  autoCookie.setMaxAge((int)expires);
                  resp.addCookie(autoCookie);
-                 req.getSession().setAttribute("admin", entity);
+                
                  
              }
+             req.getSession().setAttribute("admin", entity);
              return true;
          }else{
              return false;
