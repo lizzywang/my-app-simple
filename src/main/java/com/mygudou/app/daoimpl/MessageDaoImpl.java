@@ -55,7 +55,6 @@ public class MessageDaoImpl implements MessageDao{
     public List<Note> getuncheckedMessage(String id) {
         String sql = "select * from note where to_id="+id+" and checked = 0 order by timestamp desc";
         List<Note> list = jdbcTemplate.query(sql, new NoteRowMapper());
-        
         return list;
         
         // TODO Auto-generated method stub return null;
@@ -63,7 +62,7 @@ public class MessageDaoImpl implements MessageDao{
     }
     /* (non-Javadoc) * @see com.mygudou.app.dao.MessageDao#getConversation(java.lang.String, java.lang.String) */
     @Override
-    public List<Note> getConversation(String from_id, String to_id) {
+    public List<Note> getConversation(int from_id, int to_id) {
         String sql = "select * from note where to_id="+to_id+" and from_id="+from_id+" or to_id = "+from_id+" and from_id = "+to_id +" order by timestamp desc";
         List<Note> list = jdbcTemplate.query(sql, new NoteRowMapper());
         return list;
@@ -71,5 +70,34 @@ public class MessageDaoImpl implements MessageDao{
         // TODO Auto-generated method stub return null;
         
     }
+    
+    @Override
+    public List<Note> getConversation2(int from_id, int to_id) {
+        String sql = "select * from note where to_id="+to_id+" and from_id="+from_id+" or to_id = "+from_id+" and from_id = "+to_id +" order by timestamp";
+        List<Note> list = jdbcTemplate.query(sql, new NoteRowMapper());
+        return list;
+        
+        // TODO Auto-generated method stub return null;
+        
+    }
+    /* (non-Javadoc) * @see com.mygudou.app.dao.MessageDao#updateUnchecked(int, int) */
+    @Override
+    public void updateUnchecked(final int from_id, final int to_id) {
+        
+        final String sql = "update note set checked =1 where from_id =? and to_id =?";
+        jdbcTemplate.update(new PreparedStatementCreator(){
 
+            @Override
+            public PreparedStatement createPreparedStatement(Connection con)
+                    throws SQLException {
+                PreparedStatement ps = con.prepareStatement(sql);
+                ps.setInt(1, from_id);
+                ps.setInt(2, to_id);
+                        return ps;
+                
+                
+            }
+            
+        });
+    }
 }

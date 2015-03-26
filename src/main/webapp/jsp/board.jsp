@@ -152,10 +152,10 @@ function updateMsg(){
 	var to_id = ${admin1.id};
 	$.ajax({
 		url:"/my-app-simple/message/getConversation",
-		type:"get",
-		data:{"from_id":from_id,"to_id":to_id},
+		type:"post",
 		contentType: "application/json; charset=utf-8",
 		dataType: "json",
+		data:JSON.stringify({"from_id":from_id,"to_id":to_id}),
 		success:function(data){
 		    
 			var htmlOutput = $.templates("#theTmpl").render(data);

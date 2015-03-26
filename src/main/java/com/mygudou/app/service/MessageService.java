@@ -68,12 +68,18 @@ public class MessageService {
 	    
 	}
 	
-	public String getConversation(String from_id,String to_id){
+	public String getConversation(int from_id,int to_id){
 	    List<Note> list = MessageDao.getConversation(from_id, to_id);
 	    String jsonstr = JSON.toJSONString(list);
 	    return jsonstr;
 	}
 	
+	public String getConversation2(int from_id,int to_id){
+            List<Note> list = MessageDao.getConversation(from_id, to_id);
+            String jsonstr = JSON.toJSONString(list);
+            return jsonstr;
+        }
+        
 	public String buildString(HashMap<Integer,Integer> hm){
 	   
 	    Set<Map.Entry<Integer, Integer>> set = hm.entrySet();
@@ -91,11 +97,7 @@ public class MessageService {
             System.out.println(jsonArray.toString());
            return jsonArray.toString();
             
-           
-           
-            
-            
-           
-	    
-	}
+           }
+	
+	
 }

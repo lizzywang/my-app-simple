@@ -89,21 +89,56 @@ public class MessageController {
             }
 	}
 	
-	@RequestMapping(value = "/getConversation")
-	public void getConversation(HttpServletRequest request,HttpServletResponse response){
-	    String from_id  = request.getParameter("from_id");
-	    String to_id  = request.getParameter("to_id");
-	    String conversation = MessageService.getConversation(from_id, to_id);
-	    PrintWriter out = null;
+	
+        @RequestMapping(value="/getConversation")
+        public void getConversation(@RequestBody String json,HttpServletRequest request,HttpServletResponse response){
+                JSONObject jsonString = JSON.parseObject(json);
+                int from_id = jsonString.getIntValue("from_id");
+                int to_id = jsonString.getIntValue("to_id");
+                System.out.println(from_id);
+                System.out.println(to_id);
+                String conversation = MessageService.getConversation(from_id, to_id);
+                PrintWriter out = null;
+                response.setContentType("application/json");
+        response.setCharacterEncoding("UTF-8");
+        try {
+            out = response.getWriter();
+            out.write(conversation);
+            System.out.println(conversation);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        }
+        
+        @RequestMapping(value="/getConversation2")
+        public void getConversation2(@RequestBody String json,HttpServletRequest request,HttpServletResponse response){
+            JSONObject jsonString = JSON.parseObject(json);
+            int from_id = jsonString.getIntValue("from_id");
+            int to_id = jsonString.getIntValue("to_id");
+            System.out.println(from_id);
+            System.out.println(to_id);
+            String conversation = MessageService.getConversation(from_id, to_id);
+            PrintWriter out = null;
             response.setContentType("application/json");
-            response.setCharacterEncoding("UTF-8");
-            try {
-                out = response.getWriter();
-                out.write(conversation);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-	}
+    response.setCharacterEncoding("UTF-8");
+    try {
+        out = response.getWriter();
+        out.write(conversation);
+        System.out.println(conversation);
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+    }
+        @RequestMapping(value="/updateChecked")
+        public void updateChecked(@RequestBody String json,HttpServletRequest request,HttpServletResponse response){
+            JSONObject jsonString = JSON.parseObject(json);
+            int from_id = jsonString.getIntValue("from_id");
+            int to_id = jsonString.getIntValue("to_id");
+            
+            MessageDao.updateUnchecked(from_id, to_id);
+           
+    
+        }
 	
 	
 	
