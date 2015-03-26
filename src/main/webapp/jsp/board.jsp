@@ -148,11 +148,12 @@ function refreshPage(){
   
 function updateMsg(){
 	var html='';
-	var id = ${admin1.id};
+	var from_id = ${admin.id};
+	var to_id = ${admin1.id};
 	$.ajax({
-		url:"/my-app-simple/message/getMessageList",
+		url:"/my-app-simple/message/getConversation",
 		type:"get",
-		data:{"id":id },
+		data:{"from_id":from_id,"to_id":to_id},
 		contentType: "application/json; charset=utf-8",
 		dataType: "json",
 		success:function(data){

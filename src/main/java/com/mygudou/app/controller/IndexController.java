@@ -2,10 +2,13 @@ package com.mygudou.app.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+
 
 
 
@@ -26,9 +29,12 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 
+
+
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.mygudou.app.daoimpl.AdminDaoimpl;
+import com.mygudou.app.daoimpl.FriendDaoImpl;
 import com.mygudou.app.model.Admin;
 import com.mygudou.app.service.AdminService;
 /**
@@ -40,34 +46,47 @@ public class IndexController {
     
     @Resource(name = "AdminService")
     private AdminService AdminService;  
-	@Resource(name = "AdminDao")
+    @Resource(name = "AdminDao")
     private AdminDaoimpl AdminDao;
+    @Resource(name = "FriendDao")
+    private FriendDaoImpl FriendDao;
     
     @RequestMapping(value = "/login",method = RequestMethod.GET)
     public ModelAndView showLoginForm(HttpServletRequest request,HttpServletResponse response){
     	ModelAndView mv =  new ModelAndView();
     	boolean flag = AdminService.LoginCheck(request, response);
     	if(!flag){
-    		mv.setViewName("showform");
+    	    mv.setViewName("showform");
         }
     	else{
-    		Admin admin = (Admin) request.getSession().getAttribute("admin");
-    		
-    		mv.addObject("admin1",admin);
-    		mv.setViewName("board");
+    	    Admin admin = (Admin) request.getSession().getAttribute("admin");
+    	    String friend_ids = admin.getFriendID();
+    	    if(friend_ids != null){
+    	    List<Admin> list = FriendDao.getFriendsList(friend_ids);
+    	    mv.addObject("friendslist", list);
+        }
+    	    mv.addObject("admin",admin);
+    	    mv.setViewName("main");
     	}
-    	return mv;
+    	    return mv;
       }
     @RequestMapping(value="/login",method = RequestMethod.POST)
     public ModelAndView submit(HttpServletRequest req,HttpServletResponse resp){
         ModelAndView mv = new ModelAndView();
         boolean flag = AdminService.Loginconf(req, resp);
+        
         if(flag){
             
             Admin admin = (Admin) req.getSession().getAttribute("admin");
-    		
-    		mv.addObject("admin1",admin);
-            mv.setViewName("board");
+    		String friend_ids = admin.getFriendID();
+    		System.out.println(friend_ids);	
+    		if(friend_ids != null){
+                    List<Admin> list = FriendDao.getFriendsList(friend_ids);
+                    mv.addObject("friendslist", list);
+               }
+    		mv.addObject("admin",admin);
+    		mv.setViewName("main");
+    		return mv;
         }else{
             mv.addObject("message", "您输入的的用户名或密码错误");
             mv.setViewName("showform");

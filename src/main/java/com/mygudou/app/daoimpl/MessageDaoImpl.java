@@ -28,7 +28,7 @@ public class MessageDaoImpl implements MessageDao{
 			@Override
 			public PreparedStatement createPreparedStatement(Connection conn)
 					throws SQLException {
-				String sql = "insert into note values(?,?,?,?,?,?)";
+				String sql = "insert into note values(?,?,?,?,?,?,0)";
 				PreparedStatement ps = conn.prepareStatement(sql);
 				ps.setInt(1, from);
 				ps.setInt(2, to);
@@ -50,5 +50,26 @@ public class MessageDaoImpl implements MessageDao{
 		List<Note> notes = jdbcTemplate.query(sql, new NoteRowMapper());
 		return notes;
 	}
+    /* (non-Javadoc) * @see com.mygudou.app.dao.MessageDao#getuncheckedMessage(java.lang.String) */
+    @Override
+    public List<Note> getuncheckedMessage(String id) {
+        String sql = "select * from note where to_id="+id+" and checked = 0 order by timestamp desc";
+        List<Note> list = jdbcTemplate.query(sql, new NoteRowMapper());
+        
+        return list;
+        
+        // TODO Auto-generated method stub return null;
+        
+    }
+    /* (non-Javadoc) * @see com.mygudou.app.dao.MessageDao#getConversation(java.lang.String, java.lang.String) */
+    @Override
+    public List<Note> getConversation(String from_id, String to_id) {
+        String sql = "select * from note where to_id="+to_id+" and from_id="+from_id+" or to_id = "+from_id+" and from_id = "+to_id +" order by timestamp desc";
+        List<Note> list = jdbcTemplate.query(sql, new NoteRowMapper());
+        return list;
+        
+        // TODO Auto-generated method stub return null;
+        
+    }
 
 }

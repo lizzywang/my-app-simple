@@ -35,7 +35,7 @@ public class MessageController {
 	@ResponseBody
 	@RequestMapping(value = "/add",method =RequestMethod.POST)
 	public void addMessage(@RequestBody String json,HttpServletRequest request,HttpServletResponse response){
-		//System.out.println(json);
+		
 		JSONObject jsonString = JSON.parseObject(json);
 		int from_id = jsonString.getIntValue("from");
 		int to_id = jsonString.getIntValue("to");
@@ -63,7 +63,7 @@ public class MessageController {
 		String notes = MessageService.getMessageList(id);
 		PrintWriter out = null;
 		response.setContentType("application/json");
-        response.setCharacterEncoding("UTF-8");
+                response.setCharacterEncoding("UTF-8");
         try {
             out = response.getWriter();
             out.write(notes);
@@ -72,6 +72,39 @@ public class MessageController {
         }
 		
 	}
+	
+	@RequestMapping(value="/getuncheckedMessage")
+	public void getUncheckedMessage(HttpServletRequest request,HttpServletResponse response){
+	    String id = request.getParameter("id");
+	    String uncheckedMessage = MessageService.getUncheckedMessage(id);
+	    PrintWriter out = null;
+            response.setContentType("application/json");
+            response.setCharacterEncoding("UTF-8");
+            System.out.println(uncheckedMessage);
+            try {
+                out = response.getWriter();
+                out.write(uncheckedMessage);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+	}
+	
+	@RequestMapping(value = "/getConversation")
+	public void getConversation(HttpServletRequest request,HttpServletResponse response){
+	    String from_id  = request.getParameter("from_id");
+	    String to_id  = request.getParameter("to_id");
+	    String conversation = MessageService.getConversation(from_id, to_id);
+	    PrintWriter out = null;
+            response.setContentType("application/json");
+            response.setCharacterEncoding("UTF-8");
+            try {
+                out = response.getWriter();
+                out.write(conversation);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+	}
+	
 	
 	
 }

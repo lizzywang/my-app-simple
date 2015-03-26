@@ -9,9 +9,16 @@ public class Note {
 	private Timestamp timeStamp;
 	private String commitName;
 	private String toName;
+	private int checked;
 	
 	
-	public String getCommitName() {
+	public int getChecked() {
+        return checked;
+    }
+    public void setChecked(int checked) {
+        this.checked = checked;
+    }
+    public String getCommitName() {
 		return commitName;
 	}
 	public void setCommitName(String commitName) {

@@ -48,13 +48,14 @@ public class FriendDaoImpl implements FriendDao{
 	@Override
 	public List<Admin> getFriendsList(String friends) {
 		String[] friends_ = friends.split(",");
+		
 		String sql = "select * from admin where ";
 		StringBuilder sb = new StringBuilder(sql);
 		for(String friend:friends_){
 			sb.append(" id = "+friend+" or");
 		}
 		sql = sb.toString().substring(0, sb.toString().lastIndexOf("or"));
-		System.out.println(sql);
+		
 		List<Admin> list = jdbcTemplate.query(sql, new AdminRowMapper());
 		return list;
 	}

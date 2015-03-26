@@ -19,6 +19,7 @@ public class NoteRowMapper implements RowMapper<Note>{
 		note.setTimeStamp(rs.getTimestamp("timestamp"));
 		note.setCommitName(rs.getString("commitname"));
 		note.setToName(rs.getString("toname"));
+		note.setChecked(rs.getInt("checked"));
 		return note;
 	}
 
